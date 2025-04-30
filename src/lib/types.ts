@@ -157,7 +157,7 @@ export type ValidatorInfo = {
   software_version_score: number;
   stake_concentration_score: number;
   consensus_mods_score: number;
-  vote_latency_score: number;
+  vote_latency_score: number | null;
   total_score: number;
   vote_distance_score: number;
   ip: string;
