@@ -41,7 +41,7 @@ const renderCustomLabel = (props: {
         textAnchor={textAnchor}
         fill={fill}
       >
-        {payload.name}
+        {payload.name.replace(/\b\w/g, (char: string) => char.toUpperCase())}
       </text>
       <text
         x={ex + (cos >= 0 ? 1 : -1) * 12}

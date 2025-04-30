@@ -15,7 +15,7 @@ import {
   aggregatedFullMevData,
   aggregatedMevData,
 } from "@/lib/aggregated-mev-data";
-import { getValidatorData, shortenAddress } from "@/lib/utils";
+import { formatNumber, getValidatorData, shortenAddress } from "@/lib/utils";
 import Link from "next/link";
 import { useState } from "react";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
@@ -81,15 +81,28 @@ export default function ValidatorTable({
             <TableHeader>
               <TableRow className="hover:bg-transparent">
                 <TableHead>Validator</TableHead>
-                <TableHead>Attacks</TableHead>
-                <TableHead>SOL Drained</TableHead>
+                <TableHead className="w-[150px]">Active Stake</TableHead>
+                {sortBy === "tx" && (
+                  <TableHead className="w-[100px]">Attacks</TableHead>
+                )}
+                {sortBy === "sol" && (
+                  <TableHead className="w-[150px]">SOL Drained</TableHead>
+                )}
               </TableRow>
             </TableHeader>
             <TableBody>
               {currentRows.map((validator, index) => {
-                const validatorData = getValidatorData(validator.validator);
+                const validatorData: any = getValidatorData(
+                  validator.validator
+                );
                 const name =
                   validatorData?.name ?? shortenAddress(validator.validator);
+
+                const stake = validatorData?.active_stake
+                  ? formatNumber(
+                      Number((validatorData?.active_stake / 1e9).toFixed(0))
+                    )
+                  : "-";
 
                 return (
                   <TableRow
@@ -106,13 +119,20 @@ export default function ValidatorTable({
                         <FaArrowUpRightFromSquare size={8} className="-mt-1" />
                       </Link>
                     </TableCell>
-                    <TableCell>{validator.tx_count}</TableCell>
-                    <TableCell className="text-brand font-bold">
-                      <SolValueWrapper
-                        value={validator.victim_real_sol_extracted.toFixed(2)}
-                        size={12}
-                      />
+                    <TableCell>
+                      <SolValueWrapper value={stake} size={12} />
                     </TableCell>
+                    {sortBy === "tx" && (
+                      <TableCell>{validator.tx_count}</TableCell>
+                    )}
+                    {sortBy === "sol" && (
+                      <TableCell className="text-brand font-bold">
+                        <SolValueWrapper
+                          value={validator.victim_real_sol_extracted.toFixed(2)}
+                          size={12}
+                        />
+                      </TableCell>
+                    )}
                   </TableRow>
                 );
               })}

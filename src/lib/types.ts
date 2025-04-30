@@ -127,6 +127,54 @@ export type LiveMev = {
   is_new: boolean;
 };
 
+export type ValidatorInfo = {
+  network: string;
+  account: string;
+  name: string | null;
+  keybase_id: string | null;
+  www_url: string | null;
+  details: string | null;
+  avatar_url: string | null;
+  avatar_file_url?: string; // optional, not always present
+  created_at: string; // ISO timestamp
+  updated_at: string; // ISO timestamp
+  admin_warning: string | null;
+  jito: boolean;
+  jito_commission: number | null;
+  stake_pools_list: string[];
+  is_active: boolean;
+  active_stake: number | null;
+  authorized_withdrawer_score: number;
+  commission: number | null;
+  data_center_concentration_score: number;
+  delinquent: boolean | null;
+  published_information_score: number;
+  root_distance_score: number;
+  security_report_score: number;
+  skipped_slot_score: number;
+  skipped_after_score: number;
+  software_version: string;
+  software_version_score: number;
+  stake_concentration_score: number;
+  consensus_mods_score: number;
+  vote_latency_score: number;
+  total_score: number;
+  vote_distance_score: number;
+  ip: string;
+  data_center_key: string;
+  autonomous_system_number: number;
+  latitude: string | null;
+  longitude: string | null;
+  data_center_host: string | null;
+  vote_account: string;
+  epoch_credits?: number; // optional
+  epoch?: number; // optional
+  skipped_slots?: number; // optional
+  skipped_slot_percent?: string; // optional
+  ping_time?: number | null; // sometimes null or missing
+  url: string;
+};
+
 // Aggregated Mev Data
 export type VictimPrivMempoolProvider = {
   victim_priv_mempool_provider: string | null;

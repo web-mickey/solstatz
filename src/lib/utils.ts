@@ -100,7 +100,9 @@ export function formatShortDistanceToNow(date: Date | number): string {
 }
 
 export const getValidatorData = (validator: string) => {
-  const validatorData = validatorsList.find((v) => v.account === validator);
+  const validatorData = validatorsList.find(
+    (v) => v.account.toLowerCase() === validator.toLowerCase()
+  );
 
   if (!validatorData) {
     return null;

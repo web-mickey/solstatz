@@ -1,6 +1,6 @@
 interface HeaderProps {
   title: string | React.ReactNode;
-  description?: string;
+  description?: string | React.ReactNode;
   noMargin?: boolean;
 }
 
