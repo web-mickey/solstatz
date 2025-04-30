@@ -61755,9 +61755,3 @@ export const validatorsList: ValidatorInfo[] = [
     url: "https://www.validators.app/api/v1/validators/mainnet/ciTyjzN9iyobidMycjyqRRM7vXAHXkFzH3m8vEr6cQj",
   },
 ];
-
-export const getTotalValidatorsStake = () => {
-  return validatorsList.reduce((acc, validator) => {
-    return acc + (validator.active_stake ?? 0);
-  }, 0);
-};
