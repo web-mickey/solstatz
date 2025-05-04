@@ -1,84 +1,84 @@
 import { AggregatedMevData } from "./types";
 export const aggregatedFullMevData: AggregatedMevData[] = [
   {
-    date: "2025-05-02",
+    date: "2025-05-03",
     agg_victim_priv_mempool_provider: [
       {
         victim_priv_mempool_provider: null,
-        tx_count: 117591,
-        victim_real_sol_extracted: 14031.9062,
+        tx_count: 125634,
+        victim_real_sol_extracted: 14924.4126,
         victim_tip: 0.0,
-        attacker_sell_tip: 423.4894,
-        attacker_buy_tip: 115.2062,
-        attacker_sell_tx_fee: 0.2927,
-        attacker_buy_tx_fee: 0.3948,
-        attacker_priv_mempool_count: 80028,
+        attacker_sell_tip: 448.9931,
+        attacker_buy_tip: 121.2694,
+        attacker_sell_tx_fee: 0.3149,
+        attacker_buy_tx_fee: 0.4331,
+        attacker_priv_mempool_count: 85331,
       },
       {
         victim_priv_mempool_provider: "Jito",
-        tx_count: 34192,
-        victim_real_sol_extracted: 4697.9473,
-        victim_tip: 79.3146,
-        attacker_sell_tip: 63.6636,
-        attacker_buy_tip: 71.6406,
-        attacker_sell_tx_fee: 0.104,
-        attacker_buy_tx_fee: 0.3153,
-        attacker_priv_mempool_count: 31472,
+        tx_count: 36549,
+        victim_real_sol_extracted: 4954.2687,
+        victim_tip: 83.0245,
+        attacker_sell_tip: 69.2211,
+        attacker_buy_tip: 74.538,
+        attacker_sell_tx_fee: 0.1081,
+        attacker_buy_tx_fee: 0.3337,
+        attacker_priv_mempool_count: 33681,
       },
       {
         victim_priv_mempool_provider: "Nextblock",
-        tx_count: 2601,
-        victim_real_sol_extracted: 395.3147,
-        victim_tip: 15.4958,
-        attacker_sell_tip: 20.4676,
-        attacker_buy_tip: 1.5954,
-        attacker_sell_tx_fee: 0.0613,
-        attacker_buy_tx_fee: 0.0528,
-        attacker_priv_mempool_count: 2049,
+        tx_count: 2720,
+        victim_real_sol_extracted: 419.3891,
+        victim_tip: 16.1074,
+        attacker_sell_tip: 21.4944,
+        attacker_buy_tip: 1.7136,
+        attacker_sell_tx_fee: 0.0621,
+        attacker_buy_tx_fee: 0.0533,
+        attacker_priv_mempool_count: 2136,
       },
     ],
     df_agg_source: [
       {
         source: "pumpswap",
-        tx_count: 99519,
-        victim_real_sol_extracted: 10925.4652,
-        attacker_sol_extracted_new: 7615.1179,
-        protocol_fee_earned: 684.8963,
-        lp_fee_earned: 2739.5851,
-        attacker_sell_tip: 319.7993,
-        attacker_buy_tip: 102.0685,
-        attacker_tip: 421.8678,
-        attacker_tx_fee: 0.8364,
-        attacker_sell_tx_fee: 0.3327,
-        attacker_buy_tx_fee: 0.5038,
+        tx_count: 106937,
+        victim_real_sol_extracted: 11638.2983,
+        attacker_sol_extracted_new: 8095.9373,
+        protocol_fee_earned: 732.8171,
+        lp_fee_earned: 2931.2684,
+        attacker_sell_tip: 341.357,
+        attacker_buy_tip: 107.8196,
+        attacker_tip: 449.1766,
+        attacker_tx_fee: 0.9025,
+        attacker_sell_tx_fee: 0.3542,
+        attacker_buy_tx_fee: 0.5483,
       },
       {
         source: "pump",
-        tx_count: 33108,
-        victim_real_sol_extracted: 4654.1969,
-        attacker_sol_extracted_new: 2677.392,
-        protocol_fee_earned: 1930.7237,
+        tx_count: 35537,
+        victim_real_sol_extracted: 4983.1058,
+        attacker_sol_extracted_new: 2872.2535,
+        protocol_fee_earned: 2061.5146,
         lp_fee_earned: 0.0,
-        attacker_sell_tip: 129.2736,
-        attacker_buy_tip: 51.348,
-        attacker_tip: 180.6216,
-        attacker_tx_fee: 0.2558,
-        attacker_sell_tx_fee: 0.0883,
-        attacker_buy_tx_fee: 0.1675,
+        attacker_sell_tip: 138.0432,
+        attacker_buy_tip: 53.8156,
+        attacker_tip: 191.8588,
+        attacker_tx_fee: 0.2707,
+        attacker_sell_tx_fee: 0.0928,
+        attacker_buy_tx_fee: 0.1779,
       },
       {
         source: "raydium",
-        tx_count: 21757,
-        victim_real_sol_extracted: 3545.5061,
-        attacker_sol_extracted_new: 2494.228,
-        protocol_fee_earned: 154.0594,
-        lp_fee_earned: 1129.7693,
-        attacker_sell_tip: 58.5477,
-        attacker_buy_tip: 35.0257,
-        attacker_tip: 93.5733,
-        attacker_tx_fee: 0.1286,
-        attacker_sell_tx_fee: 0.037,
-        attacker_buy_tx_fee: 0.0916,
+        tx_count: 22429,
+        victim_real_sol_extracted: 3676.6662,
+        attacker_sol_extracted_new: 2600.8315,
+        protocol_fee_earned: 158.0464,
+        lp_fee_earned: 1159.0066,
+        attacker_sell_tip: 60.3084,
+        attacker_buy_tip: 35.8859,
+        attacker_tip: 96.1942,
+        attacker_tx_fee: 0.1321,
+        attacker_sell_tx_fee: 0.0381,
+        attacker_buy_tx_fee: 0.094,
       },
     ],
     top_lp_tx: [
@@ -88,19 +88,19 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 15.1891,
       },
       {
+        lp: "Hv1i8WrxEhL8djBuxhFGJxXTt4qEupywWKFSgGB5A7w6",
+        tx_count: 321,
+        victim_real_sol_extracted: 203.335,
+      },
+      {
         lp: "AtrhV87EL1G39JiPXuuMPMY8axX5exNK4S3DwWRiLNW7",
         tx_count: 315,
         victim_real_sol_extracted: 21.0352,
       },
       {
-        lp: "Hv1i8WrxEhL8djBuxhFGJxXTt4qEupywWKFSgGB5A7w6",
-        tx_count: 314,
-        victim_real_sol_extracted: 199.8665,
-      },
-      {
         lp: "6WwcmiRJFPDNdFmtgVQ8eY1zxMzLKGLrYuUtRy4iZmye",
-        tx_count: 275,
-        victim_real_sol_extracted: 74.7206,
+        tx_count: 279,
+        victim_real_sol_extracted: 79.1712,
       },
       {
         lp: "7Kq8SMRL2qy4Z2PtrWBP1jpTrWAdWymB7PTBrbVeiBcM",
@@ -118,6 +118,16 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 85.7332,
       },
       {
+        lp: "J1RoQRduy5X3xH9yis5bR7bJxra5ruFGRC7eA7KiQ5Zo",
+        tx_count: 249,
+        victim_real_sol_extracted: 16.3195,
+      },
+      {
+        lp: "2NeA89Teb2wnWZpSbPNWkaHRoR4dDtMJLtP4eY57Ts7S",
+        tx_count: 246,
+        victim_real_sol_extracted: 60.8512,
+      },
+      {
         lp: "2DzyCZLFEMeTaR3tk5XktaVhPpnxJp9Lx91TrgyYJgoG",
         tx_count: 245,
         victim_real_sol_extracted: 21.0152,
@@ -126,11 +136,6 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         lp: "DHWa8EWyomWo6vNXpTQFdAyyjc5bJcGVnL5n7ZxYMH3J",
         tx_count: 243,
         victim_real_sol_extracted: 22.114,
-      },
-      {
-        lp: "2NeA89Teb2wnWZpSbPNWkaHRoR4dDtMJLtP4eY57Ts7S",
-        tx_count: 240,
-        victim_real_sol_extracted: 60.1681,
       },
       {
         lp: "Gb7gwgTYBtC2j7zAL6cpXgPZP9pJvfYgHFHSvbc6Phsf",
@@ -144,13 +149,18 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         lp: "2LQf52YuqjuMVPkW2vY2HJwJPkYq3FhzcnMF9LfaQt6q",
-        tx_count: 235,
-        victim_real_sol_extracted: 26.4019,
+        tx_count: 236,
+        victim_real_sol_extracted: 26.4138,
+      },
+      {
+        lp: "FFaPrktjBw3XyxXjBw5YYiW9Mf5Bg7CDNKD8eoJddLU",
+        tx_count: 234,
+        victim_real_sol_extracted: 13.7936,
       },
       {
         lp: "4EBLSHwS9fCmvEva1ZXFoczrkNUtcXiz3RQtCizPP1mP",
-        tx_count: 226,
-        victim_real_sol_extracted: 47.0985,
+        tx_count: 227,
+        victim_real_sol_extracted: 47.1035,
       },
       {
         lp: "Bo6DP7GpnHAhqsRwVrcD4ma56pUEa4Miwm3c6ErA2j53",
@@ -163,36 +173,31 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 82.9436,
       },
       {
+        lp: "GYTVhDvNVKNKLVh7cD1odLP4XkFmoPMPKQQs8MfghKgV",
+        tx_count: 224,
+        victim_real_sol_extracted: 32.9132,
+      },
+      {
         lp: "Hgcf4KNCSTpUepswRjfbDjLZBfBHT7XqUXUGKU9LhGs6",
         tx_count: 224,
         victim_real_sol_extracted: 9.8891,
-      },
-      {
-        lp: "GYTVhDvNVKNKLVh7cD1odLP4XkFmoPMPKQQs8MfghKgV",
-        tx_count: 223,
-        victim_real_sol_extracted: 32.9011,
-      },
-      {
-        lp: "7dr3eJuqBKMcV49yHzKAngTGK83gC9QB6bzbYqL24gP6",
-        tx_count: 222,
-        victim_real_sol_extracted: 46.3474,
-      },
-      {
-        lp: "EghKjVTFFbpfeAupMrZsuMXcBp3YANsTgYnJd5q2S1B",
-        tx_count: 217,
-        victim_real_sol_extracted: 15.9612,
       },
     ],
     top_lp_extracted: [
       {
         lp: "Hv1i8WrxEhL8djBuxhFGJxXTt4qEupywWKFSgGB5A7w6",
-        tx_count: 314,
-        victim_real_sol_extracted: 199.8665,
+        tx_count: 321,
+        victim_real_sol_extracted: 203.335,
       },
       {
         lp: "J333LZ5UhEjwxb64dcD756viUFXr164dVNxQpXuMPH9V",
-        tx_count: 208,
-        victim_real_sol_extracted: 164.918,
+        tx_count: 211,
+        victim_real_sol_extracted: 167.0023,
+      },
+      {
+        lp: "37iWFSqgnTSAfShoBTBzQghwsTtkWAZW3yVzgJWKn6iK",
+        tx_count: 222,
+        victim_real_sol_extracted: 109.5014,
       },
       {
         lp: "4pczQPB11kmKHcQQ37Y3ojHmJT5bvzjnj9SdtYHScMqo",
@@ -211,38 +216,38 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         lp: "CwTDbhxMPGG8biMdgDiHeTEywr4HDKawRtiPv7W1UDk3",
-        tx_count: 99,
-        victim_real_sol_extracted: 79.3546,
-      },
-      {
-        lp: "37iWFSqgnTSAfShoBTBzQghwsTtkWAZW3yVzgJWKn6iK",
-        tx_count: 188,
-        victim_real_sol_extracted: 78.0502,
+        tx_count: 103,
+        victim_real_sol_extracted: 80.3989,
       },
       {
         lp: "6WwcmiRJFPDNdFmtgVQ8eY1zxMzLKGLrYuUtRy4iZmye",
-        tx_count: 275,
-        victim_real_sol_extracted: 74.7206,
+        tx_count: 279,
+        victim_real_sol_extracted: 79.1712,
       },
       {
         lp: "8vjTVH3wzwMU2da53fZkTzLaJKfMuTpqvjowZLhBQrxm",
-        tx_count: 105,
-        victim_real_sol_extracted: 70.7821,
+        tx_count: 106,
+        victim_real_sol_extracted: 70.8682,
       },
       {
         lp: "7oFfdxSkLazHFBZz1MMbmZUyBvGQMvjmSijGB8HJcWp",
-        tx_count: 209,
-        victim_real_sol_extracted: 67.8751,
+        tx_count: 210,
+        victim_real_sol_extracted: 67.9259,
       },
       {
         lp: "GKF2EzAxPg7b5VvHfRyJ5cQwjGrvmn2cr2xcuVcv4L55",
-        tx_count: 134,
-        victim_real_sol_extracted: 61.8654,
+        tx_count: 135,
+        victim_real_sol_extracted: 61.9895,
       },
       {
         lp: "2NeA89Teb2wnWZpSbPNWkaHRoR4dDtMJLtP4eY57Ts7S",
-        tx_count: 240,
-        victim_real_sol_extracted: 60.1681,
+        tx_count: 246,
+        victim_real_sol_extracted: 60.8512,
+      },
+      {
+        lp: "2baC5JL75NosEr2oLJZ14gbNjWDuUq3ui33ZPLZTgCEA",
+        tx_count: 106,
+        victim_real_sol_extracted: 59.6647,
       },
       {
         lp: "8VLUBufFmbFwmd6cvQxKLAUUFTweQafV2PaTNTCYzKM7",
@@ -250,14 +255,9 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 58.5786,
       },
       {
-        lp: "2baC5JL75NosEr2oLJZ14gbNjWDuUq3ui33ZPLZTgCEA",
-        tx_count: 103,
-        victim_real_sol_extracted: 58.4763,
-      },
-      {
         lp: "BJnRnTt6Y2G7D97gBXbsombEXoan6CeCo8n8GTWo1jpn",
-        tx_count: 184,
-        victim_real_sol_extracted: 58.0451,
+        tx_count: 187,
+        victim_real_sol_extracted: 58.1355,
       },
       {
         lp: "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
@@ -265,24 +265,24 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 56.2333,
       },
       {
+        lp: "CfG2JkAdxwHtFELppkBmDJAuSSqqHfocf8BBAx3cXRxB",
+        tx_count: 176,
+        victim_real_sol_extracted: 55.6685,
+      },
+      {
         lp: "DBHZjrkG5JFUNUpN4cxUziDT2kmsewMDjnzGrmgipnwN",
         tx_count: 193,
         victim_real_sol_extracted: 55.5843,
       },
       {
-        lp: "CfG2JkAdxwHtFELppkBmDJAuSSqqHfocf8BBAx3cXRxB",
-        tx_count: 169,
-        victim_real_sol_extracted: 54.6066,
+        lp: "ANY6m193bZQppKPggKS8NN4nF9cq7YJHroYPdXws9G5k",
+        tx_count: 185,
+        victim_real_sol_extracted: 48.1799,
       },
       {
         lp: "FHvz6Zf3hu6cVgkxAXG92piuFpuBTWShf7QNaRxcxMhv",
         tx_count: 193,
         victim_real_sol_extracted: 48.1236,
-      },
-      {
-        lp: "ANY6m193bZQppKPggKS8NN4nF9cq7YJHroYPdXws9G5k",
-        tx_count: 177,
-        victim_real_sol_extracted: 47.7694,
       },
     ],
     top_token_address_tx: [
@@ -298,13 +298,13 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         token_address: "CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk",
-        tx_count: 314,
-        victim_real_sol_extracted: 199.8665,
+        tx_count: 321,
+        victim_real_sol_extracted: 203.335,
       },
       {
         token_address: "8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f",
-        tx_count: 275,
-        victim_real_sol_extracted: 74.7206,
+        tx_count: 279,
+        victim_real_sol_extracted: 79.1712,
       },
       {
         token_address: "HzxW1MDxwGsmXTt1f4StiCfs9cAQ9r9RjrXMnUY3pump",
@@ -317,6 +317,11 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 18.4199,
       },
       {
+        token_address: "AcYzjC7ZRykfXsm8wCSxfYJrATENiek8eWLH2frKu6eN",
+        tx_count: 254,
+        victim_real_sol_extracted: 16.8314,
+      },
+      {
         token_address: "3EBRd2zSg8tFYj8BTzXijn2GTapCAhTep2rWvB2fpump",
         tx_count: 252,
         victim_real_sol_extracted: 21.3915,
@@ -327,14 +332,14 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 85.7332,
       },
       {
+        token_address: "2MDr15dTn6km3NWusFcnZyhq3vWpYDg7vWprghpzbonk",
+        tx_count: 246,
+        victim_real_sol_extracted: 60.8512,
+      },
+      {
         token_address: "HWt6X5CGUWSCKnRBRYtfCrjMX8mZkLCoensnFnugpump",
         tx_count: 246,
         victim_real_sol_extracted: 22.5346,
-      },
-      {
-        token_address: "2MDr15dTn6km3NWusFcnZyhq3vWpYDg7vWprghpzbonk",
-        tx_count: 240,
-        victim_real_sol_extracted: 60.1681,
       },
       {
         token_address: "6kWdAuboAonvCLLT4puXer9vPr8VMi4jds5j2Xv5pump",
@@ -343,8 +348,13 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         token_address: "8x8YipfqZctyTadL2sETH8YbMtinZAXZi6CYFebfpump",
-        tx_count: 238,
-        victim_real_sol_extracted: 26.6895,
+        tx_count: 239,
+        victim_real_sol_extracted: 26.7014,
+      },
+      {
+        token_address: "AnPbQx1mpjGGhm81NtWPDukz6aoXViXkNhfzQ29WuUkh",
+        tx_count: 239,
+        victim_real_sol_extracted: 14.396,
       },
       {
         token_address: "Bmqi4pHxhS7yvkaaJuXFFJMMErCJN3rFsHE8yJCupump",
@@ -357,46 +367,41 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 18.0624,
       },
       {
+        token_address: "66oFVXmtrdjdR7rBmtbGibVSAzuKFzopWZUF5iFTpump",
+        tx_count: 227,
+        victim_real_sol_extracted: 47.1035,
+      },
+      {
         token_address: "JCV8BB8Zde8ukroWKTjLSENSWEj42kBkENjjws2Rh6vP",
         tx_count: 226,
         victim_real_sol_extracted: 82.9436,
       },
       {
-        token_address: "66oFVXmtrdjdR7rBmtbGibVSAzuKFzopWZUF5iFTpump",
-        tx_count: 226,
-        victim_real_sol_extracted: 47.0985,
+        token_address: "GLeWRGNtMZibkf9zTSEjfssnaN2WCnKiBcZDiYe3pump",
+        tx_count: 225,
+        victim_real_sol_extracted: 33.0113,
       },
       {
         token_address: "5x9gkdQhDENBnpRKckJoZyXL1vDxKdhWF8tBRnTEpump",
         tx_count: 225,
         victim_real_sol_extracted: 10.0247,
       },
-      {
-        token_address: "Hrc1JACSh6RDbi36RnUar1Y87eAupjxVztcyW4xfpump",
-        tx_count: 224,
-        victim_real_sol_extracted: 16.5559,
-      },
-      {
-        token_address: "GLeWRGNtMZibkf9zTSEjfssnaN2WCnKiBcZDiYe3pump",
-        tx_count: 224,
-        victim_real_sol_extracted: 32.9992,
-      },
-      {
-        token_address: "3SQSwa5PXDWoBjCGi5uXCgNZ7FDCD8gG8Ai5UkLppump",
-        tx_count: 222,
-        victim_real_sol_extracted: 46.3474,
-      },
     ],
     top_token_address_extracted: [
       {
         token_address: "CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk",
-        tx_count: 314,
-        victim_real_sol_extracted: 199.8665,
+        tx_count: 321,
+        victim_real_sol_extracted: 203.335,
       },
       {
         token_address: "9wK8yN6iz1ie5kEJkvZCTxyN1x5sTdNfx8yeMY8Ebonk",
-        tx_count: 208,
-        victim_real_sol_extracted: 164.918,
+        tx_count: 211,
+        victim_real_sol_extracted: 167.0023,
+      },
+      {
+        token_address: "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+        tx_count: 222,
+        victim_real_sol_extracted: 109.5014,
       },
       {
         token_address: "9fyGRD9vX7W7CcHHS22zH2bBRzBoAAPKc93PMzxybonk",
@@ -415,38 +420,38 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         token_address: "JosjEXh69RckgSs2AWsN1xN8zmiSHxBuJjHLURJnHhg",
-        tx_count: 99,
-        victim_real_sol_extracted: 79.3546,
-      },
-      {
-        token_address: "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
-        tx_count: 188,
-        victim_real_sol_extracted: 78.0502,
+        tx_count: 103,
+        victim_real_sol_extracted: 80.3989,
       },
       {
         token_address: "8ncucXv6U6epZKHPbgaEBcEK399TpHGKCquSt4RnmX4f",
-        tx_count: 275,
-        victim_real_sol_extracted: 74.7206,
+        tx_count: 279,
+        victim_real_sol_extracted: 79.1712,
       },
       {
         token_address: "57LY5XaC9gVNxeqEUSANUpSwgdkGwULiZLZ5b95qpump",
-        tx_count: 105,
-        victim_real_sol_extracted: 70.7821,
+        tx_count: 106,
+        victim_real_sol_extracted: 70.8682,
       },
       {
         token_address: "8oosbx7jJrZxm5m4ThKhBpvwwG4QpoAe6i4GiG19pump",
-        tx_count: 209,
-        victim_real_sol_extracted: 67.8751,
+        tx_count: 210,
+        victim_real_sol_extracted: 67.9259,
       },
       {
         token_address: "3qVpCnqdaJtARzE2dYuCy5pm8X2NgF5hx9q9GosPpump",
-        tx_count: 134,
-        victim_real_sol_extracted: 61.8654,
+        tx_count: 135,
+        victim_real_sol_extracted: 61.9895,
       },
       {
         token_address: "2MDr15dTn6km3NWusFcnZyhq3vWpYDg7vWprghpzbonk",
-        tx_count: 240,
-        victim_real_sol_extracted: 60.1681,
+        tx_count: 246,
+        victim_real_sol_extracted: 60.8512,
+      },
+      {
+        token_address: "BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump",
+        tx_count: 108,
+        victim_real_sol_extracted: 59.7098,
       },
       {
         token_address: "DLLBw7Ecw8pQ8TBxRkY45P6wX9U6PsxpRgzKR7EDpump",
@@ -454,14 +459,9 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 58.5786,
       },
       {
-        token_address: "BQX1cjcRHXmrqNtoFWwmE5bZj7RPneTmqXB979b2pump",
-        tx_count: 105,
-        victim_real_sol_extracted: 58.5214,
-      },
-      {
         token_address: "RhFVq1Zt81VvcoSEMSyCGZZv5SwBdA8MV7w4HEMpump",
-        tx_count: 184,
-        victim_real_sol_extracted: 58.0451,
+        tx_count: 187,
+        victim_real_sol_extracted: 58.1355,
       },
       {
         token_address: "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
@@ -475,65 +475,65 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         token_address: "wuZ6vfM35my4BcNEBXWjr4twBvPtU7CGT5Boyxjpump",
-        tx_count: 169,
-        victim_real_sol_extracted: 54.6066,
+        tx_count: 176,
+        victim_real_sol_extracted: 55.6685,
+      },
+      {
+        token_address: "qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump",
+        tx_count: 185,
+        victim_real_sol_extracted: 48.1799,
       },
       {
         token_address: "MSL7Xt71XRELpbPKALjtp5mBt4keiNyaXQoDjcopump",
         tx_count: 193,
         victim_real_sol_extracted: 48.1236,
       },
-      {
-        token_address: "qRUZaCpgxaRH1s5V6opjPA6Hnpv5BM37LqkDBw7pump",
-        tx_count: 177,
-        victim_real_sol_extracted: 47.7694,
-      },
     ],
     top_attacker_address_tx: [
       {
         attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
-        tx_count: 40364,
-        victim_real_sol_extracted: 4993.1934,
-      },
-      {
-        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
-        tx_count: 31469,
-        victim_real_sol_extracted: 3276.025,
+        tx_count: 43100,
+        victim_real_sol_extracted: 5348.8923,
       },
       {
         attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
-        tx_count: 31370,
-        victim_real_sol_extracted: 4588.4821,
+        tx_count: 33972,
+        victim_real_sol_extracted: 4867.4767,
+      },
+      {
+        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
+        tx_count: 33967,
+        victim_real_sol_extracted: 3532.6749,
       },
       {
         attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
-        tx_count: 25178,
-        victim_real_sol_extracted: 3418.092,
+        tx_count: 26652,
+        victim_real_sol_extracted: 3548.7905,
       },
       {
         attacker_address: "4vJfp62jEzcYFnQ11oBJDgj6ZFrdEwcBBpoadNTpEWys",
-        tx_count: 4212,
-        victim_real_sol_extracted: 753.2563,
+        tx_count: 4352,
+        victim_real_sol_extracted: 770.8065,
       },
       {
         attacker_address: "7w8LrUrxUS4kcR8rpRcZqzVUfjMq7efssjyxWU6aB39s",
-        tx_count: 3796,
-        victim_real_sol_extracted: 540.1095,
+        tx_count: 4017,
+        victim_real_sol_extracted: 560.4831,
       },
       {
         attacker_address: "FUKUPmhGLbiEeMpbZvdn3KyNov7KYYcYUwHQk9SmhCDm",
-        tx_count: 1884,
-        victim_real_sol_extracted: 182.8878,
+        tx_count: 2040,
+        victim_real_sol_extracted: 199.7228,
       },
       {
         attacker_address: "B1mtaakB73ewWgzMCEAtZEYgNaEuAjkUY6E7AsBHQQSt",
-        tx_count: 235,
-        victim_real_sol_extracted: 11.785,
+        tx_count: 239,
+        victim_real_sol_extracted: 11.9242,
       },
       {
         attacker_address: "B2m9tKJernkDrB53C8ajkUDB6PCcdWoZ2qzeoE3kiUed",
-        tx_count: 229,
-        victim_real_sol_extracted: 10.7795,
+        tx_count: 232,
+        victim_real_sol_extracted: 10.8766,
       },
       {
         attacker_address: "5WvxfYNJkRcXx5eShD6x5e6Gp7oaMj1AJERa88yt4iP9",
@@ -551,19 +551,19 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 6.6978,
       },
       {
+        attacker_address: "Ae2y1DPKA2VVj3W36MPndoMLNKC3Lo6f5XcCaRcVRF39",
+        tx_count: 154,
+        victim_real_sol_extracted: 7.6035,
+      },
+      {
         attacker_address: "B3m2CntamA4XHTCHNGnSmXicLFPHJfb96jKZugZD84AB",
-        tx_count: 146,
-        victim_real_sol_extracted: 7.1817,
+        tx_count: 149,
+        victim_real_sol_extracted: 7.2999,
       },
       {
         attacker_address: "CkrWdzJpPNzgiTT5sMJ77sFcuBiyUEiXsVFthyqvvRNR",
         tx_count: 143,
         victim_real_sol_extracted: 8.737,
-      },
-      {
-        attacker_address: "Ae2y1DPKA2VVj3W36MPndoMLNKC3Lo6f5XcCaRcVRF39",
-        tx_count: 143,
-        victim_real_sol_extracted: 6.4472,
       },
       {
         attacker_address: "GhdsoW8f2mv84CVLLnedzUcCwZCtRopodryZ2vzACKoK",
@@ -572,8 +572,13 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         attacker_address: "2Yw4RiwscBEEKPksbiMF8sUqQxTyDtEZaT4644kxPd2w",
+        tx_count: 134,
+        victim_real_sol_extracted: 7.9786,
+      },
+      {
+        attacker_address: "2uz4kmM4srP5ZJf2oGpGcRqAtdCwcDb93o2BZ3SRyGiJ",
         tx_count: 130,
-        victim_real_sol_extracted: 7.6283,
+        victim_real_sol_extracted: 1.0458,
       },
       {
         attacker_address: "F1Z7AzojKCZQucn1zFLvVJi86nePRFC9KDUJP1r18UjP",
@@ -585,52 +590,57 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         tx_count: 125,
         victim_real_sol_extracted: 17.1403,
       },
-      {
-        attacker_address: "2uz4kmM4srP5ZJf2oGpGcRqAtdCwcDb93o2BZ3SRyGiJ",
-        tx_count: 124,
-        victim_real_sol_extracted: 1.0157,
-      },
     ],
     top_attacker_address_extracted: [
       {
         attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
-        tx_count: 40364,
-        victim_real_sol_extracted: 4993.1934,
+        tx_count: 43100,
+        victim_real_sol_extracted: 5348.8923,
       },
       {
         attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
-        tx_count: 31370,
-        victim_real_sol_extracted: 4588.4821,
+        tx_count: 33972,
+        victim_real_sol_extracted: 4867.4767,
       },
       {
         attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
-        tx_count: 25178,
-        victim_real_sol_extracted: 3418.092,
+        tx_count: 26652,
+        victim_real_sol_extracted: 3548.7905,
       },
       {
         attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
-        tx_count: 31469,
-        victim_real_sol_extracted: 3276.025,
+        tx_count: 33967,
+        victim_real_sol_extracted: 3532.6749,
       },
       {
         attacker_address: "4vJfp62jEzcYFnQ11oBJDgj6ZFrdEwcBBpoadNTpEWys",
-        tx_count: 4212,
-        victim_real_sol_extracted: 753.2563,
+        tx_count: 4352,
+        victim_real_sol_extracted: 770.8065,
       },
       {
         attacker_address: "7w8LrUrxUS4kcR8rpRcZqzVUfjMq7efssjyxWU6aB39s",
-        tx_count: 3796,
-        victim_real_sol_extracted: 540.1095,
+        tx_count: 4017,
+        victim_real_sol_extracted: 560.4831,
       },
       {
         attacker_address: "FUKUPmhGLbiEeMpbZvdn3KyNov7KYYcYUwHQk9SmhCDm",
-        tx_count: 1884,
-        victim_real_sol_extracted: 182.8878,
+        tx_count: 2040,
+        victim_real_sol_extracted: 199.7228,
       },
       {
         attacker_address: "FT3gXM7CjL1rYfoRoBmjgPGb2bqtYv2AwsTHXE7L8evV",
-        tx_count: 107,
-        victim_real_sol_extracted: 29.7882,
+        tx_count: 115,
+        victim_real_sol_extracted: 32.2566,
+      },
+      {
+        attacker_address: "GLA3Z8mksBuVJ4Rps5KFzFUFa6CwnvAZEUFomBa5Z3Nu",
+        tx_count: 16,
+        victim_real_sol_extracted: 29.7357,
+      },
+      {
+        attacker_address: "B1D1jFzNSjpYv9qMkZBNMT2WGJCv2C3qijEiH7wM56uc",
+        tx_count: 22,
+        victim_real_sol_extracted: 28.0797,
       },
       {
         attacker_address: "2nfbRBVKL6mNFuuYWohwNxrkJsKNfENHjd6YZfjsZ7b8",
@@ -644,28 +654,28 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         attacker_address: "BPs6DSEGWYzKr2J434YQHczvzs8GpUhbxLMpm6fj4a5W",
-        tx_count: 22,
-        victim_real_sol_extracted: 12.2372,
-      },
-      {
-        attacker_address: "B1mtaakB73ewWgzMCEAtZEYgNaEuAjkUY6E7AsBHQQSt",
-        tx_count: 235,
-        victim_real_sol_extracted: 11.785,
+        tx_count: 24,
+        victim_real_sol_extracted: 12.5041,
       },
       {
         attacker_address: "Aj9KkfyEhQZ7vr6fTz9oD7zeohH5a6eTDmBh9qwSKUPQ",
-        tx_count: 97,
-        victim_real_sol_extracted: 11.1341,
+        tx_count: 110,
+        victim_real_sol_extracted: 12.3256,
+      },
+      {
+        attacker_address: "B1mtaakB73ewWgzMCEAtZEYgNaEuAjkUY6E7AsBHQQSt",
+        tx_count: 239,
+        victim_real_sol_extracted: 11.9242,
+      },
+      {
+        attacker_address: "B2m9tKJernkDrB53C8ajkUDB6PCcdWoZ2qzeoE3kiUed",
+        tx_count: 232,
+        victim_real_sol_extracted: 10.8766,
       },
       {
         attacker_address: "6QhF5mLAGX9i5JjyQzavM4tqFcMympyAt1fWAGFTgkj8",
         tx_count: 24,
         victim_real_sol_extracted: 10.8344,
-      },
-      {
-        attacker_address: "B2m9tKJernkDrB53C8ajkUDB6PCcdWoZ2qzeoE3kiUed",
-        tx_count: 229,
-        victim_real_sol_extracted: 10.7795,
       },
       {
         attacker_address: "8DHhdZm5scWVAhEg3oRwvcgxcnFmNV4jgSqTPuw985J3",
@@ -682,42 +692,32 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         tx_count: 39,
         victim_real_sol_extracted: 9.8798,
       },
-      {
-        attacker_address: "6uPqSzGFJBNiR8r4niAW75yo6qisoeWYtvMRCtMd2jFx",
-        tx_count: 17,
-        victim_real_sol_extracted: 9.3625,
-      },
-      {
-        attacker_address: "4eXZDEdL8cSw8Mc5Kt49MZJX7wQw8rFxWpN9ooXec9hf",
-        tx_count: 21,
-        victim_real_sol_extracted: 9.1439,
-      },
     ],
     top_victim_wallet_address_tx: [
       {
+        victim_wallet_address: "HsjPW6DwDY3mCN55w8eDpFzP3a3CTPHvRcfJvcMAKFDa",
+        tx_count: 2239,
+        victim_real_sol_extracted: 115.1784,
+      },
+      {
         victim_wallet_address: "BJWinokdMf92QxKLUWgFYq1QnB8ksx1t5MqsEM7PzViw",
-        tx_count: 1820,
-        victim_real_sol_extracted: 83.1822,
+        tx_count: 2145,
+        victim_real_sol_extracted: 101.0369,
       },
       {
         victim_wallet_address: "dc5djqFbA9MmV8QJF4xJ3dAermM69AeQuXFMiBu6X2K",
-        tx_count: 1788,
-        victim_real_sol_extracted: 21.7892,
-      },
-      {
-        victim_wallet_address: "HsjPW6DwDY3mCN55w8eDpFzP3a3CTPHvRcfJvcMAKFDa",
-        tx_count: 1764,
-        victim_real_sol_extracted: 90.024,
+        tx_count: 1928,
+        victim_real_sol_extracted: 23.5136,
       },
       {
         victim_wallet_address: "wTMpVuYzD1aFLT2wG8pjaQvVuRmAHsHEudg8Lg8hUMT",
-        tx_count: 1501,
-        victim_real_sol_extracted: 78.29,
+        tx_count: 1638,
+        victim_real_sol_extracted: 82.2483,
       },
       {
         victim_wallet_address: "CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD",
-        tx_count: 989,
-        victim_real_sol_extracted: 17.4195,
+        tx_count: 1055,
+        victim_real_sol_extracted: 18.6684,
       },
       {
         victim_wallet_address: "AT8SqYZpq8T1L2CW6FkU4Yu6G9trL9qkJF7wqdfSHVt6",
@@ -726,28 +726,28 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         victim_wallet_address: "8ECGDhHq755213ZmmSBe5Gjba5JYazvB359dGpoUvtgq",
-        tx_count: 836,
-        victim_real_sol_extracted: 68.6612,
-      },
-      {
-        victim_wallet_address: "F5Sadq9B3aEg93JnjDE1WNWT7k62HuUegXFoCDwL3rsV",
-        tx_count: 775,
-        victim_real_sol_extracted: 18.0367,
+        tx_count: 862,
+        victim_real_sol_extracted: 70.4824,
       },
       {
         victim_wallet_address: "DDGniHdkFbtuh5ufizmoNeePVeaszZBePjZzjV5pvMwb",
-        tx_count: 755,
-        victim_real_sol_extracted: 35.2508,
+        tx_count: 825,
+        victim_real_sol_extracted: 37.8087,
+      },
+      {
+        victim_wallet_address: "F5Sadq9B3aEg93JnjDE1WNWT7k62HuUegXFoCDwL3rsV",
+        tx_count: 785,
+        victim_real_sol_extracted: 18.2355,
       },
       {
         victim_wallet_address: "pussyApHwZA5ZQFehJfB1kz3hCc7CYhpUysSReaKPcf",
-        tx_count: 636,
-        victim_real_sol_extracted: 15.4198,
+        tx_count: 718,
+        victim_real_sol_extracted: 16.8675,
       },
       {
         victim_wallet_address: "5niysgHXFoa8apmrgeBNRXJ6yPiz4WnMnVnAobUXoaMh",
-        tx_count: 571,
-        victim_real_sol_extracted: 0.0412,
+        tx_count: 580,
+        victim_real_sol_extracted: 0.0421,
       },
       {
         victim_wallet_address: "dc5euoW1in5oV5FBv4hRe9v7MqpEQ4M3nrqGySJiMUe",
@@ -761,28 +761,28 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         victim_wallet_address: "2uz4kmM4srP5ZJf2oGpGcRqAtdCwcDb93o2BZ3SRyGiJ",
-        tx_count: 445,
-        victim_real_sol_extracted: 26.0603,
+        tx_count: 463,
+        victim_real_sol_extracted: 26.8128,
       },
       {
         victim_wallet_address: "9WuFLkYrpn2CKNJUvT1wJABSQCZqznq3GR377Bjehbdd",
-        tx_count: 344,
-        victim_real_sol_extracted: 17.9883,
+        tx_count: 358,
+        victim_real_sol_extracted: 18.6034,
       },
       {
         victim_wallet_address: "13H2M1C3w2pwr6oYf6ZKcPGNut6mQedRAFzCpMF2iGJK",
-        tx_count: 313,
-        victim_real_sol_extracted: 22.9353,
+        tx_count: 333,
+        victim_real_sol_extracted: 24.0116,
       },
       {
         victim_wallet_address: "AvohFLJmCDQwGnveHqE9GjbVRYZLMyGWkmkU7CbmiRKb",
-        tx_count: 274,
-        victim_real_sol_extracted: 14.7818,
+        tx_count: 289,
+        victim_real_sol_extracted: 15.5938,
       },
       {
         victim_wallet_address: "DHTtxjAQ6GvJqfPz7EPZeUp53PZBXnodTWGbaYXUkQfV",
-        tx_count: 264,
-        victim_real_sol_extracted: 21.6217,
+        tx_count: 271,
+        victim_real_sol_extracted: 21.7612,
       },
       {
         victim_wallet_address: "Fd3ufsZhV4VRbSVyuyG7UFnZFZtmHxLyMSXqYHtubup9",
@@ -798,18 +798,18 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
     top_victim_wallet_address_extracted: [
       {
         victim_wallet_address: "HsjPW6DwDY3mCN55w8eDpFzP3a3CTPHvRcfJvcMAKFDa",
-        tx_count: 1764,
-        victim_real_sol_extracted: 90.024,
+        tx_count: 2239,
+        victim_real_sol_extracted: 115.1784,
       },
       {
         victim_wallet_address: "BJWinokdMf92QxKLUWgFYq1QnB8ksx1t5MqsEM7PzViw",
-        tx_count: 1820,
-        victim_real_sol_extracted: 83.1822,
+        tx_count: 2145,
+        victim_real_sol_extracted: 101.0369,
       },
       {
         victim_wallet_address: "wTMpVuYzD1aFLT2wG8pjaQvVuRmAHsHEudg8Lg8hUMT",
-        tx_count: 1501,
-        victim_real_sol_extracted: 78.29,
+        tx_count: 1638,
+        victim_real_sol_extracted: 82.2483,
       },
       {
         victim_wallet_address: "GcgfsFFgd8vjCiavNSdEdzdMfeqXjvFNWBYFdZgWvrxR",
@@ -818,8 +818,8 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         victim_wallet_address: "8ECGDhHq755213ZmmSBe5Gjba5JYazvB359dGpoUvtgq",
-        tx_count: 836,
-        victim_real_sol_extracted: 68.6612,
+        tx_count: 862,
+        victim_real_sol_extracted: 70.4824,
       },
       {
         victim_wallet_address: "AT8SqYZpq8T1L2CW6FkU4Yu6G9trL9qkJF7wqdfSHVt6",
@@ -838,18 +838,23 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
       },
       {
         victim_wallet_address: "DDGniHdkFbtuh5ufizmoNeePVeaszZBePjZzjV5pvMwb",
-        tx_count: 755,
-        victim_real_sol_extracted: 35.2508,
+        tx_count: 825,
+        victim_real_sol_extracted: 37.8087,
       },
       {
         victim_wallet_address: "Va3X4Sjv1Q52LrDtaVoxJ4xSymer5SbMmkdY6T4MRcB",
-        tx_count: 148,
-        victim_real_sol_extracted: 33.8801,
+        tx_count: 156,
+        victim_real_sol_extracted: 36.0249,
       },
       {
         victim_wallet_address: "GGztQqQ6pCPaJQnNpXBgELr5cs3WwDakRbh1iEMzjgSJ",
-        tx_count: 188,
-        victim_real_sol_extracted: 31.3999,
+        tx_count: 196,
+        victim_real_sol_extracted: 32.005,
+      },
+      {
+        victim_wallet_address: "6rSwkHQSrSBm5YS9yJfu39LFZkpfUaXL7fredRFEeHEc",
+        tx_count: 175,
+        victim_real_sol_extracted: 31.2545,
       },
       {
         victim_wallet_address: "2WATk6P6apFCh62Fzxd3FMZQuimfM6HK8HtenPMVRT1w",
@@ -857,9 +862,14 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 30.323,
       },
       {
-        victim_wallet_address: "6rSwkHQSrSBm5YS9yJfu39LFZkpfUaXL7fredRFEeHEc",
-        tx_count: 168,
-        victim_real_sol_extracted: 29.7769,
+        victim_wallet_address: "4xDsmeTWPNjgSVSS1VTfzFq3iHZhp77ffPkAmkZkdu71",
+        tx_count: 179,
+        victim_real_sol_extracted: 28.8355,
+      },
+      {
+        victim_wallet_address: "Hmn2GYbxKxFFrKdqPQi4YBCGts2iVsaqrb5NQpxG1Bus",
+        tx_count: 146,
+        victim_real_sol_extracted: 28.7238,
       },
       {
         victim_wallet_address: "B55PH2b2mJjQpQShcwuaNFSp4LcARJqwx14tqtyhVRc3",
@@ -867,86 +877,81 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 28.5361,
       },
       {
-        victim_wallet_address: "4xDsmeTWPNjgSVSS1VTfzFq3iHZhp77ffPkAmkZkdu71",
-        tx_count: 167,
-        victim_real_sol_extracted: 26.9901,
-      },
-      {
-        victim_wallet_address: "t64p318YgG4TEMub2kdJjBa3edyLUNmecDcc2qgYPPE",
-        tx_count: 97,
-        victim_real_sol_extracted: 26.4136,
-      },
-      {
-        victim_wallet_address: "6U91aKa8pmMxkJwBCfPTmUEfZi6dHe7DcFq2ALvB2tbB",
-        tx_count: 183,
-        victim_real_sol_extracted: 26.0915,
-      },
-      {
-        victim_wallet_address: "2uz4kmM4srP5ZJf2oGpGcRqAtdCwcDb93o2BZ3SRyGiJ",
-        tx_count: 445,
-        victim_real_sol_extracted: 26.0603,
+        victim_wallet_address: "4zdEhZbnbAaYeyEbtkaeQavvVibCH676gQYZ5s6FNme5",
+        tx_count: 1,
+        victim_real_sol_extracted: 27.3972,
       },
       {
         victim_wallet_address: "9nnLbotNTcUhvbrsA6Mdkx45Sm82G35zo28AqUvjExn8",
-        tx_count: 179,
-        victim_real_sol_extracted: 25.452,
+        tx_count: 187,
+        victim_real_sol_extracted: 26.8533,
       },
       {
-        victim_wallet_address: "EEEEEc4xfLKqnRBRq4wsQVJu9HaN6TuVonx54RGy4WNN",
-        tx_count: 74,
-        victim_real_sol_extracted: 24.7024,
+        victim_wallet_address: "2uz4kmM4srP5ZJf2oGpGcRqAtdCwcDb93o2BZ3SRyGiJ",
+        tx_count: 463,
+        victim_real_sol_extracted: 26.8128,
+      },
+      {
+        victim_wallet_address: "6U91aKa8pmMxkJwBCfPTmUEfZi6dHe7DcFq2ALvB2tbB",
+        tx_count: 192,
+        victim_real_sol_extracted: 26.6066,
       },
     ],
     top_validator_tx: [
       {
         validator: "6dwKX2BK1JowEVXvKemcfw2arNeTe6RHYrs4FomxSVPw",
-        tx_count: 15149,
-        victim_real_sol_extracted: 2157.6394,
+        tx_count: 15644,
+        victim_real_sol_extracted: 2191.2004,
       },
       {
         validator: "7bLCyBuFdPFYbBuztRvqrX9e13Dt6mfpoxdnMDhXvZaV",
-        tx_count: 8170,
-        victim_real_sol_extracted: 1128.7754,
+        tx_count: 8851,
+        victim_real_sol_extracted: 1195.8493,
       },
       {
         validator: "F9Sq9BxVPCBG4UMU1XAF8JBSeKhyWQdLv2PPizy1xQZx",
-        tx_count: 3732,
-        victim_real_sol_extracted: 532.6483,
-      },
-      {
-        validator: "STA5dMZHibCkLtWGXmEADpdkR8VRkGTJf1gTSMyJ1YU",
-        tx_count: 3162,
-        victim_real_sol_extracted: 478.6365,
+        tx_count: 3944,
+        victim_real_sol_extracted: 552.2781,
       },
       {
         validator: "1znL3zFHi3znoaz6T6rnnEnRj8Ar3fohDq7ZNk37sUL",
-        tx_count: 3089,
-        victim_real_sol_extracted: 398.1888,
+        tx_count: 3462,
+        victim_real_sol_extracted: 439.8075,
+      },
+      {
+        validator: "STA5dMZHibCkLtWGXmEADpdkR8VRkGTJf1gTSMyJ1YU",
+        tx_count: 3357,
+        victim_real_sol_extracted: 494.7127,
       },
       {
         validator: "BJu6CLyEP2M5Fvj88DF7ZcJYhs9qb2FYBBrVKwrFYoQk",
-        tx_count: 3010,
-        victim_real_sol_extracted: 501.228,
+        tx_count: 3307,
+        victim_real_sol_extracted: 529.1856,
       },
       {
         validator: "RUSHpmG4o1ydgySKRexRws7WMmu8nH5BaQgEAmwo2hK",
-        tx_count: 2571,
-        victim_real_sol_extracted: 422.1352,
-      },
-      {
-        validator: "Bs1AYgU6v6MiKivhpNpHnU9VePJAfdeC1yC3FuRaBWNa",
-        tx_count: 2470,
-        victim_real_sol_extracted: 374.2703,
+        tx_count: 2738,
+        victim_real_sol_extracted: 437.6037,
       },
       {
         validator: "G2TBEh2ahNGS9tGnuBNyDduNjyfUtGhMcssgRb8b6KfH",
-        tx_count: 2390,
-        victim_real_sol_extracted: 187.2617,
+        tx_count: 2642,
+        victim_real_sol_extracted: 213.3622,
+      },
+      {
+        validator: "Bs1AYgU6v6MiKivhpNpHnU9VePJAfdeC1yC3FuRaBWNa",
+        tx_count: 2543,
+        victim_real_sol_extracted: 381.8968,
       },
       {
         validator: "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        tx_count: 2148,
-        victim_real_sol_extracted: 217.9248,
+        tx_count: 2226,
+        victim_real_sol_extracted: 224.5491,
+      },
+      {
+        validator: "DtdSSG8ZJRZVv5Jx7K1MeWp7Zxcu19GD5wQRGRpQ9uMF",
+        tx_count: 2151,
+        victim_real_sol_extracted: 242.0138,
       },
       {
         validator: "6PvHaibtZhuba14dzbhGFJRASYX3Ka2oviRzSbXV2wYC",
@@ -954,96 +959,91 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 301.5979,
       },
       {
-        validator: "DtdSSG8ZJRZVv5Jx7K1MeWp7Zxcu19GD5wQRGRpQ9uMF",
-        tx_count: 2000,
-        victim_real_sol_extracted: 226.729,
-      },
-      {
         validator: "5rtCpCsHQUdh48zfWSo3VHmWoPoJ33PqA8BJtxojyz5Q",
-        tx_count: 1929,
-        victim_real_sol_extracted: 306.1118,
-      },
-      {
-        validator: "q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot",
-        tx_count: 1901,
-        victim_real_sol_extracted: 228.7803,
+        tx_count: 2108,
+        victim_real_sol_extracted: 329.5235,
       },
       {
         validator: "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        tx_count: 1861,
-        victim_real_sol_extracted: 174.4601,
+        tx_count: 2040,
+        victim_real_sol_extracted: 189.5587,
+      },
+      {
+        validator: "q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot",
+        tx_count: 2026,
+        victim_real_sol_extracted: 267.3001,
       },
       {
         validator: "CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A",
-        tx_count: 1676,
-        victim_real_sol_extracted: 201.4534,
+        tx_count: 1794,
+        victim_real_sol_extracted: 215.4167,
       },
       {
         validator: "8JpfpVyew5Y9cLQCHkt5gqT4vDZLL46ZknMbSThVjzrg",
-        tx_count: 1466,
-        victim_real_sol_extracted: 237.5175,
-      },
-      {
-        validator: "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
-        tx_count: 1453,
-        victim_real_sol_extracted: 153.7739,
-      },
-      {
-        validator: "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
-        tx_count: 1427,
-        victim_real_sol_extracted: 168.0237,
+        tx_count: 1653,
+        victim_real_sol_extracted: 250.1962,
       },
       {
         validator: "Goo7uPA1ASVX2Ws4JW1eAjQxBcTtjMdpAHBtPBzi8yN6",
-        tx_count: 1407,
-        victim_real_sol_extracted: 222.239,
+        tx_count: 1585,
+        victim_real_sol_extracted: 238.3426,
+      },
+      {
+        validator: "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+        tx_count: 1551,
+        victim_real_sol_extracted: 162.8805,
+      },
+      {
+        validator: "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+        tx_count: 1519,
+        victim_real_sol_extracted: 177.0063,
       },
     ],
     top_validator_extracted: [
       {
         validator: "6dwKX2BK1JowEVXvKemcfw2arNeTe6RHYrs4FomxSVPw",
-        tx_count: 15149,
-        victim_real_sol_extracted: 2157.6394,
+        tx_count: 15644,
+        victim_real_sol_extracted: 2191.2004,
       },
       {
         validator: "7bLCyBuFdPFYbBuztRvqrX9e13Dt6mfpoxdnMDhXvZaV",
-        tx_count: 8170,
-        victim_real_sol_extracted: 1128.7754,
+        tx_count: 8851,
+        victim_real_sol_extracted: 1195.8493,
       },
       {
         validator: "F9Sq9BxVPCBG4UMU1XAF8JBSeKhyWQdLv2PPizy1xQZx",
-        tx_count: 3732,
-        victim_real_sol_extracted: 532.6483,
+        tx_count: 3944,
+        victim_real_sol_extracted: 552.2781,
       },
       {
         validator: "BJu6CLyEP2M5Fvj88DF7ZcJYhs9qb2FYBBrVKwrFYoQk",
-        tx_count: 3010,
-        victim_real_sol_extracted: 501.228,
+        tx_count: 3307,
+        victim_real_sol_extracted: 529.1856,
       },
       {
         validator: "STA5dMZHibCkLtWGXmEADpdkR8VRkGTJf1gTSMyJ1YU",
-        tx_count: 3162,
-        victim_real_sol_extracted: 478.6365,
-      },
-      {
-        validator: "RUSHpmG4o1ydgySKRexRws7WMmu8nH5BaQgEAmwo2hK",
-        tx_count: 2571,
-        victim_real_sol_extracted: 422.1352,
+        tx_count: 3357,
+        victim_real_sol_extracted: 494.7127,
       },
       {
         validator: "1znL3zFHi3znoaz6T6rnnEnRj8Ar3fohDq7ZNk37sUL",
-        tx_count: 3089,
-        victim_real_sol_extracted: 398.1888,
+        tx_count: 3462,
+        victim_real_sol_extracted: 439.8075,
+      },
+      {
+        validator: "RUSHpmG4o1ydgySKRexRws7WMmu8nH5BaQgEAmwo2hK",
+        tx_count: 2738,
+        victim_real_sol_extracted: 437.6037,
       },
       {
         validator: "Bs1AYgU6v6MiKivhpNpHnU9VePJAfdeC1yC3FuRaBWNa",
-        tx_count: 2470,
-        victim_real_sol_extracted: 374.2703,
+        tx_count: 2543,
+        victim_real_sol_extracted: 381.8968,
       },
       {
         validator: "5rtCpCsHQUdh48zfWSo3VHmWoPoJ33PqA8BJtxojyz5Q",
-        tx_count: 1929,
-        victim_real_sol_extracted: 306.1118,
+        tx_count: 2108,
+        victim_real_sol_extracted: 329.5235,
       },
       {
         validator: "6PvHaibtZhuba14dzbhGFJRASYX3Ka2oviRzSbXV2wYC",
@@ -1051,54 +1051,54 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_real_sol_extracted: 301.5979,
       },
       {
-        validator: "8JpfpVyew5Y9cLQCHkt5gqT4vDZLL46ZknMbSThVjzrg",
-        tx_count: 1466,
-        victim_real_sol_extracted: 237.5175,
+        validator: "q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot",
+        tx_count: 2026,
+        victim_real_sol_extracted: 267.3001,
       },
       {
-        validator: "q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot",
-        tx_count: 1901,
-        victim_real_sol_extracted: 228.7803,
+        validator: "8JpfpVyew5Y9cLQCHkt5gqT4vDZLL46ZknMbSThVjzrg",
+        tx_count: 1653,
+        victim_real_sol_extracted: 250.1962,
       },
       {
         validator: "DtdSSG8ZJRZVv5Jx7K1MeWp7Zxcu19GD5wQRGRpQ9uMF",
-        tx_count: 2000,
-        victim_real_sol_extracted: 226.729,
+        tx_count: 2151,
+        victim_real_sol_extracted: 242.0138,
       },
       {
         validator: "Goo7uPA1ASVX2Ws4JW1eAjQxBcTtjMdpAHBtPBzi8yN6",
-        tx_count: 1407,
-        victim_real_sol_extracted: 222.239,
+        tx_count: 1585,
+        victim_real_sol_extracted: 238.3426,
       },
       {
         validator: "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
-        tx_count: 2148,
-        victim_real_sol_extracted: 217.9248,
+        tx_count: 2226,
+        victim_real_sol_extracted: 224.5491,
       },
       {
         validator: "Bnqie7FYWudbSuBjyRHzoKQrz7eGFxmY9wFAMQKKQjEe",
-        tx_count: 1340,
-        victim_real_sol_extracted: 214.9937,
+        tx_count: 1373,
+        victim_real_sol_extracted: 220.3267,
       },
       {
         validator: "CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A",
-        tx_count: 1676,
-        victim_real_sol_extracted: 201.4534,
+        tx_count: 1794,
+        victim_real_sol_extracted: 215.4167,
       },
       {
         validator: "G2TBEh2ahNGS9tGnuBNyDduNjyfUtGhMcssgRb8b6KfH",
-        tx_count: 2390,
-        victim_real_sol_extracted: 187.2617,
+        tx_count: 2642,
+        victim_real_sol_extracted: 213.3622,
       },
       {
         validator: "71M936kzQRe7eWrABba6yKqPsmTMVhijQqDNQP9qM9pP",
-        tx_count: 1040,
-        victim_real_sol_extracted: 187.165,
+        tx_count: 1129,
+        victim_real_sol_extracted: 196.7442,
       },
       {
         validator: "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
-        tx_count: 1861,
-        victim_real_sol_extracted: 174.4601,
+        tx_count: 2040,
+        victim_real_sol_extracted: 189.5587,
       },
     ],
     top_attacks: [
@@ -1120,6 +1120,23 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
           "JVwxrD1uZxKvLUWguik8qzA1iS6XDudfEmqopLL3GuzknhRmkudaFbNREaAfe81HK4Ww17RZZCPzhCJ8fAcBsxp",
       },
       {
+        date: "2025-05-03",
+        token_address: "HwKE9CPg9Z9WzAeQSj6jeLBizK7LJs5m6LTVx6pLpump",
+        attacker_address: "GLA3Z8mksBuVJ4Rps5KFzFUFa6CwnvAZEUFomBa5Z3Nu",
+        attacker_sol_extracted: 27.1886,
+        victim_real_sol_extracted: 27.3972,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3MNoyyWR3136LYeVWdcg4NBaA5C2ZZz9PHjrL4nMhf4sgokuY8N6MvoUczDAkUoDpf8LScaLaGDNtEYNMcXyoFJB",
+        attacker_tx_hash_sell:
+          "5ngGStob5msWMAeaQBeNgRWbcgwTtF5gWyN3EiW6QjgrtsbEwHfL1AjTJiw1eHhtiLvh8gTMJvLMBETJCU1ZceEr",
+        slot: 337454030,
+        victim_wallet_address: "4zdEhZbnbAaYeyEbtkaeQavvVibCH676gQYZ5s6FNme5",
+        victim_amount_in: 872.0,
+        victim_tx_hash:
+          "61m1UUoGgSsd5XXE7C5JhTTEKnep3FZyFz6skNEPr6hrjE7VY63A2AatEWxSEZs8cY31QQ5p2VVNi4rpiGftFTPB",
+      },
+      {
         date: "2025-04-22",
         token_address: "Hv2YQT56tQ5AQyPfzHDGhHtWqqrcNGwAda2joY5pump",
         attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
@@ -1135,6 +1152,23 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_amount_in: 49.9997,
         victim_tx_hash:
           "nXFgeuscnjd8UqkBLvyh1Akh9EzQoH8TMUBejtNhkbo9wY519hro27LeTqYYNnhtKoHLY15ZBmmQ4PxkBZBscoy",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "8WCXLcWfLKqfX9kDDQtKtw21rUwwhzS7gAa4pWE2FrtX",
+        attacker_address: "B1D1jFzNSjpYv9qMkZBNMT2WGJCv2C3qijEiH7wM56uc",
+        attacker_sol_extracted: 24.5112,
+        victim_real_sol_extracted: 24.557,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3haJ9SXRVLUn2gDGteP2HP89TqGhypHdPuTGXCj4s56MgUQuL3hWTwnDRaDgMZJn9ets8ayFB787XZntxCzfFFH5",
+        attacker_tx_hash_sell:
+          "2SyDszcB6qiyQ86Ka3FeEyznYCuAoBnirBE1HkQGS4JP37K8xExQqnToRFCH4ConrDXKjhDQhm71Zk9Fq89kLbfx",
+        slot: 337595684,
+        victim_wallet_address: "7yXAevgGU86xCLRZt3AAXyFYoPNMwtHE4cW75PEY6u94",
+        victim_amount_in: 26.5046,
+        victim_tx_hash:
+          "6zGixFWdJgor9onLBFeVjpFuTdD1mSEiyPGyyf3w7E72RaHuTGpvQGySiwfzxjdSBFFtVNdfRvLUsGscZG4v3BZ",
       },
       {
         date: "2025-04-18",
@@ -1237,6 +1271,23 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_amount_in: 14.85,
         victim_tx_hash:
           "q5h5QYcNe1FuhsmCu86CXdHi41ZeCaibHbs8Hr5hYejS3ddknQzZpsak5EGUu9sasrjezdBTyo9Kh5oG2Az2DZ7",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "ULr8hQLDEbqPSPmmFviCZbEWQXk4esH9gKpSLzopump",
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        attacker_sol_extracted: 12.6814,
+        victim_real_sol_extracted: 13.0874,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "4SzQszjYDJGXoM8tga62RqfecuGXjbV6wY37UbiPbsebgprWcBimPwgst2AEXrQSdqxkVyXcr5CtSz5e88NThKhp",
+        attacker_tx_hash_sell:
+          "3iXDxNMcUHnh6CGVymJyF9nCmddw5RxiQUGXbkVUJGRTJGBHAH7nbJHUeAr8tGYKG9AonK6kYY7ntQhPjeMS95kd",
+        slot: 337655821,
+        victim_wallet_address: "54hqmoTvAF3xNytvFJMYNFBbTRLejixhLfBvSSyXVuDB",
+        victim_amount_in: 14.9999,
+        victim_tx_hash:
+          "56VSjgNjNedDgY3xhbKCWZnCuGkUWNHAp6Nrf1E3HbAs7JLsLD5JzxPkd8jrPK9YobBcroK45gSPAu1WpVpa7J4M",
       },
       {
         date: "2025-04-25",
@@ -1391,62 +1442,1455 @@ export const aggregatedFullMevData: AggregatedMevData[] = [
         victim_tx_hash:
           "3r2JNMe4ycfE7QvFFqSW2VLBRfe6ZS8Fkk7YuGg24RtpoCW8AU95VcXAL72qyQ4ZCsj2G9nT1uHr5uRDYgjCQzYw",
       },
-      {
-        date: "2025-04-23",
-        token_address: "FxKjW7uWutu9RPDiR6uDYZp7JSSxtSYmMBLhmtzzpump",
-        attacker_address: "7w8LrUrxUS4kcR8rpRcZqzVUfjMq7efssjyxWU6aB39s",
-        attacker_sol_extracted: 7.2651,
-        victim_real_sol_extracted: 8.9074,
-        victim_priv_mempool_provider: "Jito",
-        attacker_tx_hash_buy:
-          "4tnG4ZefDQXaJn2N2ShidwqQg8K67WqB36sdYzFXJWGnrfnboW1dDP5ib5xKdPXRWFVhV7BCVAGMr3esZGUNRWi1",
-        attacker_tx_hash_sell:
-          "31YSQzG9NRPobPvhmhasSgJhBYh7AKaU2jVyf4gnZNmRhXoTZvMb52Bj1HvNi6BeqW6A4jgZpLMLqkbFJwVRa3ML",
-        slot: 335337867,
-        victim_wallet_address: "Cu3MCEFskHzn3AuCrB28u3o31Xx1VLf8xrwaFCey1Rfy",
-        victim_amount_in: 9.7364,
-        victim_tx_hash:
-          "21RHeEkf5ZLuALbc684C8VHQmvqtZCsDfPjYjEo6CJDS3zWX3t15LHV4ydPwyuXEFsY8aVLAWmmYNsTyhfn3JH71",
-      },
-      {
-        date: "2025-04-27",
-        token_address: "GkS5nZ4eDopFVLQpMJxfMxEM4U19Ji3E48bkXQ29pump",
-        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
-        attacker_sol_extracted: 8.7185,
-        victim_real_sol_extracted: 8.9011,
-        victim_priv_mempool_provider: null,
-        attacker_tx_hash_buy:
-          "4RYBGvjj6TJ5KasEcibZUFToz3Eg4cp2Xsa41ikhUCdSQ4y2Y2hTPepgnhzrXwewQPZCxVnpxPisdahEC4g4pxKG",
-        attacker_tx_hash_sell:
-          "4iuvpfCpvsnc1KueHAL1HfvwxYW7ekbbh957izsTLbbNQSTzT41UZGxATwsVmv7pfKCY4Z91DLjJxvs7yAVhGEMQ",
-        slot: 336176270,
-        victim_wallet_address: "G5nxEXuFMfV74DSnsrSatqCW32F34XUnBeq3PfDS7w5E",
-        victim_amount_in: 49.5,
-        victim_tx_hash:
-          "CoJMQvmDVA9CkVmevACTshknaXHx4Xh3pWxUm14LVSUFG8WMfjJ7B75Dywsw77JzNXJecxLxxT82XLTz8vLumEr",
-      },
-      {
-        date: "2025-04-25",
-        token_address: "93a1thMAdY2Ppr6bHuaasAT5YmM5wLyZoPdJfFFSbonk",
-        attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
-        attacker_sol_extracted: 8.2363,
-        victim_real_sol_extracted: 8.5096,
-        victim_priv_mempool_provider: null,
-        attacker_tx_hash_buy:
-          "P5CCqzhUys7w6DssBBjyunynjwoSNsHaaPDNaXDKos3kVFE52j9U3xP6wRCUdQ4tDRL3YVRfHBZsTLhbrsFafmx",
-        attacker_tx_hash_sell:
-          "4o2qJAo2GkcfLvvGQscrUHUFBAAFLjwwCm3RSkJZkgfdpwLghBeuEXhfLxJSg4rnPxp9MPaB3ok79jA1NaQqydhB",
-        slot: 335860696,
-        victim_wallet_address: "5W5vnVSX7NjaghpfMf1jyvtcQNyRffk7hDZS67rKXQpW",
-        victim_amount_in: 49.95,
-        victim_tx_hash:
-          "4cy3UERGonYqBBndL7VLBcA1STnfYePgpswySUiZnrHYAPdLVbzcaDzugE3c2aJhPprLUSfakP8pxc8fgqLsk8NL",
-      },
     ],
   },
 ];
 
 export const aggregatedMevData: AggregatedMevData[] = [
+  {
+    date: "2025-05-03",
+    agg_victim_priv_mempool_provider: [
+      {
+        victim_priv_mempool_provider: null,
+        tx_count: 8043,
+        victim_real_sol_extracted: 892.5064,
+        victim_tip: 0.0,
+        attacker_sell_tip: 25.5038,
+        attacker_buy_tip: 6.0632,
+        attacker_sell_tx_fee: 0.0222,
+        attacker_buy_tx_fee: 0.0383,
+        attacker_priv_mempool_count: 5303,
+      },
+      {
+        victim_priv_mempool_provider: "Jito",
+        tx_count: 2357,
+        victim_real_sol_extracted: 256.3214,
+        victim_tip: 3.7099,
+        attacker_sell_tip: 5.5575,
+        attacker_buy_tip: 2.8975,
+        attacker_sell_tx_fee: 0.0041,
+        attacker_buy_tx_fee: 0.0185,
+        attacker_priv_mempool_count: 2209,
+      },
+      {
+        victim_priv_mempool_provider: "Nextblock",
+        tx_count: 119,
+        victim_real_sol_extracted: 24.0743,
+        victim_tip: 0.6116,
+        attacker_sell_tip: 1.0268,
+        attacker_buy_tip: 0.1182,
+        attacker_sell_tx_fee: 0.0008,
+        attacker_buy_tx_fee: 0.0005,
+        attacker_priv_mempool_count: 87,
+      },
+    ],
+    df_agg_source: [
+      {
+        source: "pumpswap",
+        tx_count: 7418,
+        victim_real_sol_extracted: 712.8331,
+        attacker_sol_extracted_new: 480.8194,
+        protocol_fee_earned: 47.9208,
+        lp_fee_earned: 191.6832,
+        attacker_sell_tip: 21.5578,
+        attacker_buy_tip: 5.7511,
+        attacker_tip: 27.3088,
+        attacker_tx_fee: 0.066,
+        attacker_sell_tx_fee: 0.0215,
+        attacker_buy_tx_fee: 0.0445,
+      },
+      {
+        source: "pump",
+        tx_count: 2429,
+        victim_real_sol_extracted: 328.9089,
+        attacker_sol_extracted_new: 194.8615,
+        protocol_fee_earned: 130.7908,
+        lp_fee_earned: 0.0,
+        attacker_sell_tip: 8.7696,
+        attacker_buy_tip: 2.4676,
+        attacker_tip: 11.2372,
+        attacker_tx_fee: 0.0148,
+        attacker_sell_tx_fee: 0.0045,
+        attacker_buy_tx_fee: 0.0103,
+      },
+      {
+        source: "raydium",
+        tx_count: 672,
+        victim_real_sol_extracted: 131.1601,
+        attacker_sol_extracted_new: 106.6034,
+        protocol_fee_earned: 3.9869,
+        lp_fee_earned: 29.2374,
+        attacker_sell_tip: 1.7607,
+        attacker_buy_tip: 0.8602,
+        attacker_tip: 2.6209,
+        attacker_tx_fee: 0.0035,
+        attacker_sell_tx_fee: 0.0011,
+        attacker_buy_tx_fee: 0.0024,
+      },
+    ],
+    top_lp_tx: [
+      {
+        lp: "J1RoQRduy5X3xH9yis5bR7bJxra5ruFGRC7eA7KiQ5Zo",
+        tx_count: 249,
+        victim_real_sol_extracted: 16.3195,
+      },
+      {
+        lp: "FFaPrktjBw3XyxXjBw5YYiW9Mf5Bg7CDNKD8eoJddLU",
+        tx_count: 234,
+        victim_real_sol_extracted: 13.7936,
+      },
+      {
+        lp: "GTExYJCeCq33Xo66aNMMMQ9WH86B1fKgmhjy4ihJ7D4E",
+        tx_count: 140,
+        victim_real_sol_extracted: 6.5508,
+      },
+      {
+        lp: "GGafaZsxqDs6xDqJCY3Smc98kU6Eudq5gNmXQkwybuDu",
+        tx_count: 126,
+        victim_real_sol_extracted: 26.1351,
+      },
+      {
+        lp: "DYHKFiwxMTnbhV2124tSZH5w3fAvMYbicvy6vEAJVhy9",
+        tx_count: 91,
+        victim_real_sol_extracted: 15.6769,
+      },
+      {
+        lp: "AP5N7p3t6mXPYYKpeBh3ma4Lg9zoeE3Kmfmx1ebemq25",
+        tx_count: 89,
+        victim_real_sol_extracted: 8.1373,
+      },
+      {
+        lp: "7zJQwShqxPGGCUzT3uHTzF4ps5AGZDCS86WQo2FeimT9",
+        tx_count: 82,
+        victim_real_sol_extracted: 7.8771,
+      },
+      {
+        lp: "FuegvqQP9sXQSGT58KBBXAbNcfYWcgN2DFrUA15MtDgm",
+        tx_count: 81,
+        victim_real_sol_extracted: 19.6954,
+      },
+      {
+        lp: "HBrGsDyyjfr6SxLn8f2H1EzrW75WrvyrAtQoNFyHKB5A",
+        tx_count: 76,
+        victim_real_sol_extracted: 7.1172,
+      },
+      {
+        lp: "2aPfvki7Qn478qTBtZBFR3sxpDDCruQqPLtbaYWpEJ9T",
+        tx_count: 74,
+        victim_real_sol_extracted: 8.654,
+      },
+      {
+        lp: "DRdEqB9H8cW1SCuwpChmZjKY6ajMgiM8F5s8RTLtgRcv",
+        tx_count: 71,
+        victim_real_sol_extracted: 6.2667,
+      },
+      {
+        lp: "YxNJghj5x2SwePLmzXwBvnij1SoPxiG86xGF4SzUiGp",
+        tx_count: 69,
+        victim_real_sol_extracted: 12.8108,
+      },
+      {
+        lp: "2AEtiFNNWovByb9VcvXx1J2esqngnWjiDsm9DSWwBeTN",
+        tx_count: 68,
+        victim_real_sol_extracted: 6.1958,
+      },
+      {
+        lp: "7UkKenXVFqtKcCHjGTc25v23sYoTqGTsK1EieeVdER1p",
+        tx_count: 67,
+        victim_real_sol_extracted: 7.4428,
+      },
+      {
+        lp: "D4ftYQC45CAXAoJdgFhsFe2fYi9EK21HdFzUA8hdJNS6",
+        tx_count: 65,
+        victim_real_sol_extracted: 4.2911,
+      },
+      {
+        lp: "5bTvMDeW3wQgUnrVVUd25rHr8NENtpsBcQzGS5waUn4Y",
+        tx_count: 65,
+        victim_real_sol_extracted: 33.7462,
+      },
+      {
+        lp: "2Q6bbDFZSpyDHX7n75XyXnWtg2nNRT8kNcRhMHV9Hgkx",
+        tx_count: 65,
+        victim_real_sol_extracted: 4.4454,
+      },
+      {
+        lp: "k8Q8qxhD4Uu3UkXHR7hvJvUdhwTX7B5b9GKxn8GzNRj",
+        tx_count: 63,
+        victim_real_sol_extracted: 3.8336,
+      },
+      {
+        lp: "52wowHVsDdoiyWmxxU4FGXAaBXgcMAVsvXtxFyMursDX",
+        tx_count: 63,
+        victim_real_sol_extracted: 7.0084,
+      },
+      {
+        lp: "DUPU7MQttgK36UgdHsEzaKfKqjeKP5Q4YzJBy8tSCnwk",
+        tx_count: 63,
+        victim_real_sol_extracted: 7.3682,
+      },
+    ],
+    top_lp_extracted: [
+      {
+        lp: "5bTvMDeW3wQgUnrVVUd25rHr8NENtpsBcQzGS5waUn4Y",
+        tx_count: 65,
+        victim_real_sol_extracted: 33.7462,
+      },
+      {
+        lp: "57N2W9wavazTVi7rmNhLX5cpapJJpfYeC6L6UhDcUFHx",
+        tx_count: 23,
+        victim_real_sol_extracted: 31.5647,
+      },
+      {
+        lp: "37iWFSqgnTSAfShoBTBzQghwsTtkWAZW3yVzgJWKn6iK",
+        tx_count: 34,
+        victim_real_sol_extracted: 31.4512,
+      },
+      {
+        lp: "DDSGy3CxioL4QPuj8kiPzxYg37PH4e7hdbD5E1iPmzu3",
+        tx_count: 3,
+        victim_real_sol_extracted: 27.9683,
+      },
+      {
+        lp: "GGafaZsxqDs6xDqJCY3Smc98kU6Eudq5gNmXQkwybuDu",
+        tx_count: 126,
+        victim_real_sol_extracted: 26.1351,
+      },
+      {
+        lp: "FuegvqQP9sXQSGT58KBBXAbNcfYWcgN2DFrUA15MtDgm",
+        tx_count: 81,
+        victim_real_sol_extracted: 19.6954,
+      },
+      {
+        lp: "J1RoQRduy5X3xH9yis5bR7bJxra5ruFGRC7eA7KiQ5Zo",
+        tx_count: 249,
+        victim_real_sol_extracted: 16.3195,
+      },
+      {
+        lp: "DYHKFiwxMTnbhV2124tSZH5w3fAvMYbicvy6vEAJVhy9",
+        tx_count: 91,
+        victim_real_sol_extracted: 15.6769,
+      },
+      {
+        lp: "wsAMaBCwfPcVfbBgHvuJaLwuqGP24XHqjaGgMs9VbWw",
+        tx_count: 37,
+        victim_real_sol_extracted: 15.4669,
+      },
+      {
+        lp: "FFaPrktjBw3XyxXjBw5YYiW9Mf5Bg7CDNKD8eoJddLU",
+        tx_count: 234,
+        victim_real_sol_extracted: 13.7936,
+      },
+      {
+        lp: "9V8KcjEPhUW4YGp6dtsVmDjFP4E3GqvsVFWWyMGZLfDV",
+        tx_count: 2,
+        victim_real_sol_extracted: 13.119,
+      },
+      {
+        lp: "YxNJghj5x2SwePLmzXwBvnij1SoPxiG86xGF4SzUiGp",
+        tx_count: 69,
+        victim_real_sol_extracted: 12.8108,
+      },
+      {
+        lp: "2z5DLiDjMGvTcMEG6ExQDdUb781CVtYXbqYTBKmA4ths",
+        tx_count: 38,
+        victim_real_sol_extracted: 10.6917,
+      },
+      {
+        lp: "9f7TGxRx7BcZiHE1ZJ2og2Z6yXqSACkgt6M2es5ycCX1",
+        tx_count: 52,
+        victim_real_sol_extracted: 9.8882,
+      },
+      {
+        lp: "2aPfvki7Qn478qTBtZBFR3sxpDDCruQqPLtbaYWpEJ9T",
+        tx_count: 74,
+        victim_real_sol_extracted: 8.654,
+      },
+      {
+        lp: "AP5N7p3t6mXPYYKpeBh3ma4Lg9zoeE3Kmfmx1ebemq25",
+        tx_count: 89,
+        victim_real_sol_extracted: 8.1373,
+      },
+      {
+        lp: "3Kx5LHgSX3NZnfwoEgBKHuae3Wkbxve8tior8FxkP2q1",
+        tx_count: 12,
+        victim_real_sol_extracted: 8.0463,
+      },
+      {
+        lp: "7zJQwShqxPGGCUzT3uHTzF4ps5AGZDCS86WQo2FeimT9",
+        tx_count: 82,
+        victim_real_sol_extracted: 7.8771,
+      },
+      {
+        lp: "7UkKenXVFqtKcCHjGTc25v23sYoTqGTsK1EieeVdER1p",
+        tx_count: 67,
+        victim_real_sol_extracted: 7.4428,
+      },
+      {
+        lp: "DUPU7MQttgK36UgdHsEzaKfKqjeKP5Q4YzJBy8tSCnwk",
+        tx_count: 63,
+        victim_real_sol_extracted: 7.3682,
+      },
+    ],
+    top_token_address_tx: [
+      {
+        token_address: "AcYzjC7ZRykfXsm8wCSxfYJrATENiek8eWLH2frKu6eN",
+        tx_count: 254,
+        victim_real_sol_extracted: 16.8314,
+      },
+      {
+        token_address: "AnPbQx1mpjGGhm81NtWPDukz6aoXViXkNhfzQ29WuUkh",
+        tx_count: 239,
+        victim_real_sol_extracted: 14.396,
+      },
+      {
+        token_address: "AtDScPYiR3kNuGn7dfgz2xhqg5qP6q4LNRVS8Rm5pump",
+        tx_count: 142,
+        victim_real_sol_extracted: 6.796,
+      },
+      {
+        token_address: "GDTgPno7RrBibWgQFjWMy1vJEXWxQQASaCijg89dpump",
+        tx_count: 126,
+        victim_real_sol_extracted: 26.1351,
+      },
+      {
+        token_address: "6Q5CSHfFHEzT8RwoaEHtHhKFy1YCyguxaiJWNUEvpump",
+        tx_count: 96,
+        victim_real_sol_extracted: 16.152,
+      },
+      {
+        token_address: "Gi2x9YbvoN2ewbLVPG5jyTEaajAp5MaWskV5Eo31pump",
+        tx_count: 91,
+        victim_real_sol_extracted: 9.6175,
+      },
+      {
+        token_address: "J2vcia4KW8vjfvcr1sXCTMq3V9kmz2ye3PAX7XVqpump",
+        tx_count: 83,
+        victim_real_sol_extracted: 7.8814,
+      },
+      {
+        token_address: "2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump",
+        tx_count: 81,
+        victim_real_sol_extracted: 19.6954,
+      },
+      {
+        token_address: "8eS9MW5u23iNwGPgC5qdaKcCUsK4fg4Gs6h6HXXipump",
+        tx_count: 76,
+        victim_real_sol_extracted: 7.1172,
+      },
+      {
+        token_address: "aTZ9gBbqYnMycVFrDqVeapBk5j5tFocbs3nGMcypump",
+        tx_count: 74,
+        victim_real_sol_extracted: 8.654,
+      },
+      {
+        token_address: "GuezzaEW5kkhDRF2KJA7kGdgyagsUUdKhLzbFpPNitye",
+        tx_count: 71,
+        victim_real_sol_extracted: 6.2667,
+      },
+      {
+        token_address: "2MVy9drHqSBinPoSyUrUVS19m5u8Cjj3mZcnpYshpump",
+        tx_count: 69,
+        victim_real_sol_extracted: 12.8108,
+      },
+      {
+        token_address: "GbZj8B2YPWw2istc916rxZCwUUFHrvZXxpx4uiFCpump",
+        tx_count: 68,
+        victim_real_sol_extracted: 7.5581,
+      },
+      {
+        token_address: "CeQv9S2honBa5SMppQ1gEJgZ3SHiqM3YzesJi2Lspump",
+        tx_count: 68,
+        victim_real_sol_extracted: 4.7861,
+      },
+      {
+        token_address: "DSXuSoiyCvp5nxdoFpsiRQY9nQxLwsmBZBb3ptEkpump",
+        tx_count: 68,
+        victim_real_sol_extracted: 6.1958,
+      },
+      {
+        token_address: "FfTKHZSSF6uPLYVq6wu5PnnF2v1CGb3E5iHc4wS8pump",
+        tx_count: 65,
+        victim_real_sol_extracted: 4.4454,
+      },
+      {
+        token_address: "8WCXLcWfLKqfX9kDDQtKtw21rUwwhzS7gAa4pWE2FrtX",
+        tx_count: 65,
+        victim_real_sol_extracted: 33.7462,
+      },
+      {
+        token_address: "A1UrE8WD9HiWUY2kcJtxu5JaAfZ8jaarC2P87zVJpump",
+        tx_count: 63,
+        victim_real_sol_extracted: 3.8336,
+      },
+      {
+        token_address: "CeTWkzr5TMb9y7UjmmndQ6wbGK7BnCT6TfGZeFVipump",
+        tx_count: 63,
+        victim_real_sol_extracted: 7.0084,
+      },
+      {
+        token_address: "vv96jGJhGEqq5GU6q6zqpPrGMayZpGxQ35rrGEkpump",
+        tx_count: 63,
+        victim_real_sol_extracted: 7.3682,
+      },
+    ],
+    top_token_address_extracted: [
+      {
+        token_address: "8WCXLcWfLKqfX9kDDQtKtw21rUwwhzS7gAa4pWE2FrtX",
+        tx_count: 65,
+        victim_real_sol_extracted: 33.7462,
+      },
+      {
+        token_address: "E9ohKWriRVthGan4Wu2EVgHuwcCejG4fdpncFPUPDvZs",
+        tx_count: 23,
+        victim_real_sol_extracted: 31.5647,
+      },
+      {
+        token_address: "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+        tx_count: 34,
+        victim_real_sol_extracted: 31.4512,
+      },
+      {
+        token_address: "HwKE9CPg9Z9WzAeQSj6jeLBizK7LJs5m6LTVx6pLpump",
+        tx_count: 3,
+        victim_real_sol_extracted: 27.9683,
+      },
+      {
+        token_address: "GDTgPno7RrBibWgQFjWMy1vJEXWxQQASaCijg89dpump",
+        tx_count: 126,
+        victim_real_sol_extracted: 26.1351,
+      },
+      {
+        token_address: "2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump",
+        tx_count: 81,
+        victim_real_sol_extracted: 19.6954,
+      },
+      {
+        token_address: "AcYzjC7ZRykfXsm8wCSxfYJrATENiek8eWLH2frKu6eN",
+        tx_count: 254,
+        victim_real_sol_extracted: 16.8314,
+      },
+      {
+        token_address: "6Q5CSHfFHEzT8RwoaEHtHhKFy1YCyguxaiJWNUEvpump",
+        tx_count: 96,
+        victim_real_sol_extracted: 16.152,
+      },
+      {
+        token_address: "FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump",
+        tx_count: 37,
+        victim_real_sol_extracted: 15.4669,
+      },
+      {
+        token_address: "AnPbQx1mpjGGhm81NtWPDukz6aoXViXkNhfzQ29WuUkh",
+        tx_count: 239,
+        victim_real_sol_extracted: 14.396,
+      },
+      {
+        token_address: "ULr8hQLDEbqPSPmmFviCZbEWQXk4esH9gKpSLzopump",
+        tx_count: 2,
+        victim_real_sol_extracted: 13.119,
+      },
+      {
+        token_address: "2MVy9drHqSBinPoSyUrUVS19m5u8Cjj3mZcnpYshpump",
+        tx_count: 69,
+        victim_real_sol_extracted: 12.8108,
+      },
+      {
+        token_address: "Cz75ZtjwgZmr5J1VDBRTm5ZybZvEFR5DEdb8hEy59pWq",
+        tx_count: 38,
+        victim_real_sol_extracted: 10.6917,
+      },
+      {
+        token_address: "B5NwZhxfB5ZuzHSYsAsFrDgynqqbNi5GeXSN8zsKpump",
+        tx_count: 52,
+        victim_real_sol_extracted: 9.8882,
+      },
+      {
+        token_address: "Gi2x9YbvoN2ewbLVPG5jyTEaajAp5MaWskV5Eo31pump",
+        tx_count: 91,
+        victim_real_sol_extracted: 9.6175,
+      },
+      {
+        token_address: "aTZ9gBbqYnMycVFrDqVeapBk5j5tFocbs3nGMcypump",
+        tx_count: 74,
+        victim_real_sol_extracted: 8.654,
+      },
+      {
+        token_address: "C7NKQzU8zE5aaELQBDywLzEhxegyvh8aC475KgWKpump",
+        tx_count: 12,
+        victim_real_sol_extracted: 8.0463,
+      },
+      {
+        token_address: "J2vcia4KW8vjfvcr1sXCTMq3V9kmz2ye3PAX7XVqpump",
+        tx_count: 83,
+        victim_real_sol_extracted: 7.8814,
+      },
+      {
+        token_address: "GbZj8B2YPWw2istc916rxZCwUUFHrvZXxpx4uiFCpump",
+        tx_count: 68,
+        victim_real_sol_extracted: 7.5581,
+      },
+      {
+        token_address: "vv96jGJhGEqq5GU6q6zqpPrGMayZpGxQ35rrGEkpump",
+        tx_count: 63,
+        victim_real_sol_extracted: 7.3682,
+      },
+    ],
+    top_attacker_address_tx: [
+      {
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        tx_count: 2736,
+        victim_real_sol_extracted: 355.6988,
+      },
+      {
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        tx_count: 2602,
+        victim_real_sol_extracted: 278.9945,
+      },
+      {
+        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
+        tx_count: 2498,
+        victim_real_sol_extracted: 256.6499,
+      },
+      {
+        attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
+        tx_count: 1474,
+        victim_real_sol_extracted: 130.6985,
+      },
+      {
+        attacker_address: "7w8LrUrxUS4kcR8rpRcZqzVUfjMq7efssjyxWU6aB39s",
+        tx_count: 221,
+        victim_real_sol_extracted: 20.3736,
+      },
+      {
+        attacker_address: "FUKUPmhGLbiEeMpbZvdn3KyNov7KYYcYUwHQk9SmhCDm",
+        tx_count: 156,
+        victim_real_sol_extracted: 16.8351,
+      },
+      {
+        attacker_address: "4vJfp62jEzcYFnQ11oBJDgj6ZFrdEwcBBpoadNTpEWys",
+        tx_count: 140,
+        victim_real_sol_extracted: 17.5502,
+      },
+      {
+        attacker_address: "AGvJnMfsNdPEqo2TCFD5azorBq9eX9RcbEKJtnbLr3Lu",
+        tx_count: 13,
+        victim_real_sol_extracted: 0.2612,
+      },
+      {
+        attacker_address: "Aj9KkfyEhQZ7vr6fTz9oD7zeohH5a6eTDmBh9qwSKUPQ",
+        tx_count: 13,
+        victim_real_sol_extracted: 1.1915,
+      },
+      {
+        attacker_address: "Ae2y1DPKA2VVj3W36MPndoMLNKC3Lo6f5XcCaRcVRF39",
+        tx_count: 11,
+        victim_real_sol_extracted: 1.1564,
+      },
+      {
+        attacker_address: "AVQreWRt34Av3SHVLFzksMPX7ELyY1o2gNrtYLHaibHs",
+        tx_count: 9,
+        victim_real_sol_extracted: 0.2406,
+      },
+      {
+        attacker_address: "FT3gXM7CjL1rYfoRoBmjgPGb2bqtYv2AwsTHXE7L8evV",
+        tx_count: 8,
+        victim_real_sol_extracted: 2.4684,
+      },
+      {
+        attacker_address: "J2EnnVubaNwXapCmh3i5Adn3wtBVwZdQWxCUTjdvNYDa",
+        tx_count: 7,
+        victim_real_sol_extracted: 0.3163,
+      },
+      {
+        attacker_address: "2uz4kmM4srP5ZJf2oGpGcRqAtdCwcDb93o2BZ3SRyGiJ",
+        tx_count: 6,
+        victim_real_sol_extracted: 0.0301,
+      },
+      {
+        attacker_address: "GeEy4zMmt9ato2Y2WS46RxSNh91h2iNWfbXUqzecsVJj",
+        tx_count: 5,
+        victim_real_sol_extracted: 0.1999,
+      },
+      {
+        attacker_address: "4gTYrtPFxmpTsA4HoddgkmN9F3TwVnwbPkBu16jUrumJ",
+        tx_count: 5,
+        victim_real_sol_extracted: 0.1725,
+      },
+      {
+        attacker_address: "2x9b3ScM4WZazjaAkrmv8VwioRU1ZLiKcz2QysiXZUoq",
+        tx_count: 5,
+        victim_real_sol_extracted: 0.6107,
+      },
+      {
+        attacker_address: "HmW25y4pBoKe7Gi9yaMycgfZpQZPSDTZxUmtokANZ1iC",
+        tx_count: 5,
+        victim_real_sol_extracted: 0.0167,
+      },
+      {
+        attacker_address: "BGzSb9UQMvuiNMY9zr8Fviag3bNkRmJUi1kpJFbpZHw",
+        tx_count: 5,
+        victim_real_sol_extracted: 0.1073,
+      },
+      {
+        attacker_address: "2Yw4RiwscBEEKPksbiMF8sUqQxTyDtEZaT4644kxPd2w",
+        tx_count: 4,
+        victim_real_sol_extracted: 0.3503,
+      },
+    ],
+    top_attacker_address_extracted: [
+      {
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        tx_count: 2736,
+        victim_real_sol_extracted: 355.6988,
+      },
+      {
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        tx_count: 2602,
+        victim_real_sol_extracted: 278.9945,
+      },
+      {
+        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
+        tx_count: 2498,
+        victim_real_sol_extracted: 256.6499,
+      },
+      {
+        attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
+        tx_count: 1474,
+        victim_real_sol_extracted: 130.6985,
+      },
+      {
+        attacker_address: "GLA3Z8mksBuVJ4Rps5KFzFUFa6CwnvAZEUFomBa5Z3Nu",
+        tx_count: 1,
+        victim_real_sol_extracted: 27.3972,
+      },
+      {
+        attacker_address: "B1D1jFzNSjpYv9qMkZBNMT2WGJCv2C3qijEiH7wM56uc",
+        tx_count: 1,
+        victim_real_sol_extracted: 24.557,
+      },
+      {
+        attacker_address: "7w8LrUrxUS4kcR8rpRcZqzVUfjMq7efssjyxWU6aB39s",
+        tx_count: 221,
+        victim_real_sol_extracted: 20.3736,
+      },
+      {
+        attacker_address: "4vJfp62jEzcYFnQ11oBJDgj6ZFrdEwcBBpoadNTpEWys",
+        tx_count: 140,
+        victim_real_sol_extracted: 17.5502,
+      },
+      {
+        attacker_address: "FUKUPmhGLbiEeMpbZvdn3KyNov7KYYcYUwHQk9SmhCDm",
+        tx_count: 156,
+        victim_real_sol_extracted: 16.8351,
+      },
+      {
+        attacker_address: "4wYgRtmxPHGX8yWF6MfJj82UB43GicPFMH2hWrBhXVcG",
+        tx_count: 1,
+        victim_real_sol_extracted: 2.7839,
+      },
+      {
+        attacker_address: "FT3gXM7CjL1rYfoRoBmjgPGb2bqtYv2AwsTHXE7L8evV",
+        tx_count: 8,
+        victim_real_sol_extracted: 2.4684,
+      },
+      {
+        attacker_address: "84gY53fy4KhPGxGSXQicRi5mQSwtas9TyYwHqfcyrUjU",
+        tx_count: 2,
+        victim_real_sol_extracted: 1.8712,
+      },
+      {
+        attacker_address: "FBsNGYU9qqfrJn14mhhS8mhGtZc5QSzUGqr4g724uA1y",
+        tx_count: 1,
+        victim_real_sol_extracted: 1.2363,
+      },
+      {
+        attacker_address: "Aj9KkfyEhQZ7vr6fTz9oD7zeohH5a6eTDmBh9qwSKUPQ",
+        tx_count: 13,
+        victim_real_sol_extracted: 1.1915,
+      },
+      {
+        attacker_address: "Ae2y1DPKA2VVj3W36MPndoMLNKC3Lo6f5XcCaRcVRF39",
+        tx_count: 11,
+        victim_real_sol_extracted: 1.1564,
+      },
+      {
+        attacker_address: "GHWw9uPQ1o6KNBqDRWh1aE3AQZi5osL4inxXRVCLjWC1",
+        tx_count: 1,
+        victim_real_sol_extracted: 1.1145,
+      },
+      {
+        attacker_address: "3d6TdN189oLMjcam1MKbAzRyBqRumKadsPhRBckR72rM",
+        tx_count: 1,
+        victim_real_sol_extracted: 0.866,
+      },
+      {
+        attacker_address: "CfroeKdq17qieuv13rmwZba6MvhzKRCyj8vzhHZFWioC",
+        tx_count: 2,
+        victim_real_sol_extracted: 0.6373,
+      },
+      {
+        attacker_address: "2x9b3ScM4WZazjaAkrmv8VwioRU1ZLiKcz2QysiXZUoq",
+        tx_count: 5,
+        victim_real_sol_extracted: 0.6107,
+      },
+      {
+        attacker_address: "9YoUA7XfsbWkUkPTWutqvLz6EFQwYzLZ9bQgPFQ962En",
+        tx_count: 2,
+        victim_real_sol_extracted: 0.5564,
+      },
+    ],
+    top_victim_wallet_address_tx: [
+      {
+        victim_wallet_address: "HsjPW6DwDY3mCN55w8eDpFzP3a3CTPHvRcfJvcMAKFDa",
+        tx_count: 475,
+        victim_real_sol_extracted: 25.1544,
+      },
+      {
+        victim_wallet_address: "BJWinokdMf92QxKLUWgFYq1QnB8ksx1t5MqsEM7PzViw",
+        tx_count: 325,
+        victim_real_sol_extracted: 17.8547,
+      },
+      {
+        victim_wallet_address: "dc5djqFbA9MmV8QJF4xJ3dAermM69AeQuXFMiBu6X2K",
+        tx_count: 140,
+        victim_real_sol_extracted: 1.7244,
+      },
+      {
+        victim_wallet_address: "wTMpVuYzD1aFLT2wG8pjaQvVuRmAHsHEudg8Lg8hUMT",
+        tx_count: 137,
+        victim_real_sol_extracted: 3.9583,
+      },
+      {
+        victim_wallet_address: "pussyApHwZA5ZQFehJfB1kz3hCc7CYhpUysSReaKPcf",
+        tx_count: 82,
+        victim_real_sol_extracted: 1.4477,
+      },
+      {
+        victim_wallet_address: "SCtNKL8Vb6RNALn8J2jkZ8WhBjvJZgqKFoG9y7hZGkp",
+        tx_count: 77,
+        victim_real_sol_extracted: 4.0302,
+      },
+      {
+        victim_wallet_address: "DDGniHdkFbtuh5ufizmoNeePVeaszZBePjZzjV5pvMwb",
+        tx_count: 70,
+        victim_real_sol_extracted: 2.5579,
+      },
+      {
+        victim_wallet_address: "CkUZV387xnoGpF7wC2moMa6mPmAgCvTT4pWgzq4M9fCD",
+        tx_count: 66,
+        victim_real_sol_extracted: 1.249,
+      },
+      {
+        victim_wallet_address: "2gstYukj4zed896t1cV33Lc1JGx1Qj87owSTL7oYEFKF",
+        tx_count: 57,
+        victim_real_sol_extracted: 3.3326,
+      },
+      {
+        victim_wallet_address: "PCEfxtjE8tV3my1hzCfktwz1MvDGX5mvpfsPsPgqwVX",
+        tx_count: 48,
+        victim_real_sol_extracted: 16.9186,
+      },
+      {
+        victim_wallet_address: "71t7S9vWUTJkkVLs3W87ih1TGoo5ETdzoyucWSSmhzqY",
+        tx_count: 48,
+        victim_real_sol_extracted: 3.1918,
+      },
+      {
+        victim_wallet_address: "CWf1g7EEapHadJQY8nhHjx4Uog8J3A97fG1E9kdPae5Y",
+        tx_count: 44,
+        victim_real_sol_extracted: 2.4569,
+      },
+      {
+        victim_wallet_address: "HG2bqKwf7CHPSjPkgs9di8jwno3M4mrJeX2jJPcDqEqj",
+        tx_count: 42,
+        victim_real_sol_extracted: 2.0793,
+      },
+      {
+        victim_wallet_address: "5JHYRxFMUHSX44qpNvV2pNHe9P9hcPLhRw5YPRU2TfS3",
+        tx_count: 42,
+        victim_real_sol_extracted: 2.0208,
+      },
+      {
+        victim_wallet_address: "J7VCs4GUammxxAa5Vm2aiT7TQPLtY86C4Egq5Lo8ee31",
+        tx_count: 39,
+        victim_real_sol_extracted: 2.4912,
+      },
+      {
+        victim_wallet_address: "8h5PwCpXMhyNweiug3SVmQNm83ctqg4g2nTpgqSVHv2e",
+        tx_count: 37,
+        victim_real_sol_extracted: 2.1384,
+      },
+      {
+        victim_wallet_address: "FE6nn7nvghPVkTFQ89oS6VwLMFZP6msH7z14KY2kVnZo",
+        tx_count: 35,
+        victim_real_sol_extracted: 3.2729,
+      },
+      {
+        victim_wallet_address: "HC8dnGdEnLdFVBCYqo5eVyHoBuJd9hpiHXoxjsF4y5PK",
+        tx_count: 35,
+        victim_real_sol_extracted: 3.1321,
+      },
+      {
+        victim_wallet_address: "AqmzcXc9xZnqtDKbREXbioPMuATKVqbDFvLK5uyXe1zw",
+        tx_count: 34,
+        victim_real_sol_extracted: 3.0073,
+      },
+      {
+        victim_wallet_address: "DfmCdkNTorKKH1sg6wNURKmjaGJYaTWUvEQxb69czb2k",
+        tx_count: 32,
+        victim_real_sol_extracted: 2.373,
+      },
+    ],
+    top_victim_wallet_address_extracted: [
+      {
+        victim_wallet_address: "4zdEhZbnbAaYeyEbtkaeQavvVibCH676gQYZ5s6FNme5",
+        tx_count: 1,
+        victim_real_sol_extracted: 27.3972,
+      },
+      {
+        victim_wallet_address: "HsjPW6DwDY3mCN55w8eDpFzP3a3CTPHvRcfJvcMAKFDa",
+        tx_count: 475,
+        victim_real_sol_extracted: 25.1544,
+      },
+      {
+        victim_wallet_address: "7yXAevgGU86xCLRZt3AAXyFYoPNMwtHE4cW75PEY6u94",
+        tx_count: 1,
+        victim_real_sol_extracted: 24.557,
+      },
+      {
+        victim_wallet_address: "BJWinokdMf92QxKLUWgFYq1QnB8ksx1t5MqsEM7PzViw",
+        tx_count: 325,
+        victim_real_sol_extracted: 17.8547,
+      },
+      {
+        victim_wallet_address: "PCEfxtjE8tV3my1hzCfktwz1MvDGX5mvpfsPsPgqwVX",
+        tx_count: 48,
+        victim_real_sol_extracted: 16.9186,
+      },
+      {
+        victim_wallet_address: "DvG6PNugFa2bDwMT1AhQ1Jo9RkvK2uZdc2WkStQFJkez",
+        tx_count: 32,
+        victim_real_sol_extracted: 13.3123,
+      },
+      {
+        victim_wallet_address: "54hqmoTvAF3xNytvFJMYNFBbTRLejixhLfBvSSyXVuDB",
+        tx_count: 1,
+        victim_real_sol_extracted: 13.0874,
+      },
+      {
+        victim_wallet_address: "HuEcwNDvhNTqGCb2tNdL78PDDKiuyoJLhSJ5r7aF1E1W",
+        tx_count: 21,
+        victim_real_sol_extracted: 10.8793,
+      },
+      {
+        victim_wallet_address: "Hmn2GYbxKxFFrKdqPQi4YBCGts2iVsaqrb5NQpxG1Bus",
+        tx_count: 27,
+        victim_real_sol_extracted: 5.8302,
+      },
+      {
+        victim_wallet_address: "2mQis5GuZoHFRAF5HkdwJ1BYQg9cvSArkHcPfhMujKxm",
+        tx_count: 11,
+        victim_real_sol_extracted: 5.1711,
+      },
+      {
+        victim_wallet_address: "48uyPK5Mj83XrV5kaNWaYo7hZitGxM5HuKRAmPcDa1Gg",
+        tx_count: 16,
+        victim_real_sol_extracted: 4.7144,
+      },
+      {
+        victim_wallet_address: "78i9Ppa9D72jDhNCJcWuzzFivVkH5vD2NWDAuEXw24XV",
+        tx_count: 17,
+        victim_real_sol_extracted: 4.5581,
+      },
+      {
+        victim_wallet_address: "8bjU4U2Z7x1EeEb3CLdg6hsto2GnpW1pWD8XYHJEh75M",
+        tx_count: 1,
+        victim_real_sol_extracted: 4.5561,
+      },
+      {
+        victim_wallet_address: "CxGxknh4hi262GF111Pw6FkQUZ6Vv8yV7rk5FWiGZ13Y",
+        tx_count: 1,
+        victim_real_sol_extracted: 4.3513,
+      },
+      {
+        victim_wallet_address: "DzNVvBadPDFcBYD9ozASUfUUk3qYg3YebQcjJRvDQoc6",
+        tx_count: 1,
+        victim_real_sol_extracted: 4.0681,
+      },
+      {
+        victim_wallet_address: "6LXutJvKUw8Q5ue2gCgKHQdAN4suWW8awzFVC6XCguFx",
+        tx_count: 10,
+        victim_real_sol_extracted: 4.0612,
+      },
+      {
+        victim_wallet_address: "SCtNKL8Vb6RNALn8J2jkZ8WhBjvJZgqKFoG9y7hZGkp",
+        tx_count: 77,
+        victim_real_sol_extracted: 4.0302,
+      },
+      {
+        victim_wallet_address: "5akKYp7ii98RfXsLdXR3EdLfYSoiuF2EmviXxMp1yRbT",
+        tx_count: 5,
+        victim_real_sol_extracted: 4.0037,
+      },
+      {
+        victim_wallet_address: "CTVtGQpbkWNxt8RSMgaz3SrbwZyiRQDqyp6TgkofREwg",
+        tx_count: 1,
+        victim_real_sol_extracted: 3.9953,
+      },
+      {
+        victim_wallet_address: "wTMpVuYzD1aFLT2wG8pjaQvVuRmAHsHEudg8Lg8hUMT",
+        tx_count: 137,
+        victim_real_sol_extracted: 3.9583,
+      },
+    ],
+    top_validator_tx: [
+      {
+        validator: "7bLCyBuFdPFYbBuztRvqrX9e13Dt6mfpoxdnMDhXvZaV",
+        tx_count: 681,
+        victim_real_sol_extracted: 67.0739,
+      },
+      {
+        validator: "6dwKX2BK1JowEVXvKemcfw2arNeTe6RHYrs4FomxSVPw",
+        tx_count: 495,
+        victim_real_sol_extracted: 33.561,
+      },
+      {
+        validator: "1znL3zFHi3znoaz6T6rnnEnRj8Ar3fohDq7ZNk37sUL",
+        tx_count: 373,
+        victim_real_sol_extracted: 41.6187,
+      },
+      {
+        validator: "BJu6CLyEP2M5Fvj88DF7ZcJYhs9qb2FYBBrVKwrFYoQk",
+        tx_count: 297,
+        victim_real_sol_extracted: 27.9577,
+      },
+      {
+        validator: "G2TBEh2ahNGS9tGnuBNyDduNjyfUtGhMcssgRb8b6KfH",
+        tx_count: 252,
+        victim_real_sol_extracted: 26.1005,
+      },
+      {
+        validator: "CYhgRWDhcgLwwTo1XBKnzzVS3L3767ueyQmQjSeLeLbK",
+        tx_count: 249,
+        victim_real_sol_extracted: 27.1883,
+      },
+      {
+        validator: "F9Sq9BxVPCBG4UMU1XAF8JBSeKhyWQdLv2PPizy1xQZx",
+        tx_count: 212,
+        victim_real_sol_extracted: 19.6298,
+      },
+      {
+        validator: "CbyfiyQAy9pyWKrAv3KViqHgcDPQ9ECmYx3eaQoV5hBw",
+        tx_count: 202,
+        victim_real_sol_extracted: 17.24,
+      },
+      {
+        validator: "STA5dMZHibCkLtWGXmEADpdkR8VRkGTJf1gTSMyJ1YU",
+        tx_count: 195,
+        victim_real_sol_extracted: 16.0762,
+      },
+      {
+        validator: "8JpfpVyew5Y9cLQCHkt5gqT4vDZLL46ZknMbSThVjzrg",
+        tx_count: 187,
+        victim_real_sol_extracted: 12.6788,
+      },
+      {
+        validator: "5rtCpCsHQUdh48zfWSo3VHmWoPoJ33PqA8BJtxojyz5Q",
+        tx_count: 179,
+        victim_real_sol_extracted: 23.4117,
+      },
+      {
+        validator: "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+        tx_count: 179,
+        victim_real_sol_extracted: 15.0986,
+      },
+      {
+        validator: "Goo7uPA1ASVX2Ws4JW1eAjQxBcTtjMdpAHBtPBzi8yN6",
+        tx_count: 178,
+        victim_real_sol_extracted: 16.1036,
+      },
+      {
+        validator: "RUSHpmG4o1ydgySKRexRws7WMmu8nH5BaQgEAmwo2hK",
+        tx_count: 167,
+        victim_real_sol_extracted: 15.4685,
+      },
+      {
+        validator: "DtdSSG8ZJRZVv5Jx7K1MeWp7Zxcu19GD5wQRGRpQ9uMF",
+        tx_count: 151,
+        victim_real_sol_extracted: 15.2847,
+      },
+      {
+        validator: "7y5VhV4fkz6r4zUmH2UiwPjLwXzPL1PcV28or5NWkWRL",
+        tx_count: 137,
+        victim_real_sol_extracted: 22.5406,
+      },
+      {
+        validator: "q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot",
+        tx_count: 125,
+        victim_real_sol_extracted: 38.5198,
+      },
+      {
+        validator: "CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A",
+        tx_count: 118,
+        victim_real_sol_extracted: 13.9633,
+      },
+      {
+        validator: "DhKrFYrbiNJSJbVN242Bmi8izphkX6M68mf5R7A2vHgp",
+        tx_count: 108,
+        victim_real_sol_extracted: 24.2748,
+      },
+      {
+        validator: "9aUUBU9AQvgeL8GqSubinJWJxhcXptj3nmvhVEAme4HT",
+        tx_count: 102,
+        victim_real_sol_extracted: 14.43,
+      },
+    ],
+    top_validator_extracted: [
+      {
+        validator: "7bLCyBuFdPFYbBuztRvqrX9e13Dt6mfpoxdnMDhXvZaV",
+        tx_count: 681,
+        victim_real_sol_extracted: 67.0739,
+      },
+      {
+        validator: "1znL3zFHi3znoaz6T6rnnEnRj8Ar3fohDq7ZNk37sUL",
+        tx_count: 373,
+        victim_real_sol_extracted: 41.6187,
+      },
+      {
+        validator: "q9XWcZ7T1wP4bW9SB4XgNNwjnFEJ982nE8aVbbNuwot",
+        tx_count: 125,
+        victim_real_sol_extracted: 38.5198,
+      },
+      {
+        validator: "6dwKX2BK1JowEVXvKemcfw2arNeTe6RHYrs4FomxSVPw",
+        tx_count: 495,
+        victim_real_sol_extracted: 33.561,
+      },
+      {
+        validator: "GQzMeEMwAR44ugoNCifTb5NdRKos1GduDUPeNh6AgV46",
+        tx_count: 34,
+        victim_real_sol_extracted: 28.2795,
+      },
+      {
+        validator: "BJu6CLyEP2M5Fvj88DF7ZcJYhs9qb2FYBBrVKwrFYoQk",
+        tx_count: 297,
+        victim_real_sol_extracted: 27.9577,
+      },
+      {
+        validator: "CYhgRWDhcgLwwTo1XBKnzzVS3L3767ueyQmQjSeLeLbK",
+        tx_count: 249,
+        victim_real_sol_extracted: 27.1883,
+      },
+      {
+        validator: "G2TBEh2ahNGS9tGnuBNyDduNjyfUtGhMcssgRb8b6KfH",
+        tx_count: 252,
+        victim_real_sol_extracted: 26.1005,
+      },
+      {
+        validator: "DhKrFYrbiNJSJbVN242Bmi8izphkX6M68mf5R7A2vHgp",
+        tx_count: 108,
+        victim_real_sol_extracted: 24.2748,
+      },
+      {
+        validator: "5rtCpCsHQUdh48zfWSo3VHmWoPoJ33PqA8BJtxojyz5Q",
+        tx_count: 179,
+        victim_real_sol_extracted: 23.4117,
+      },
+      {
+        validator: "7y5VhV4fkz6r4zUmH2UiwPjLwXzPL1PcV28or5NWkWRL",
+        tx_count: 137,
+        victim_real_sol_extracted: 22.5406,
+      },
+      {
+        validator: "F9Sq9BxVPCBG4UMU1XAF8JBSeKhyWQdLv2PPizy1xQZx",
+        tx_count: 212,
+        victim_real_sol_extracted: 19.6298,
+      },
+      {
+        validator: "CbyfiyQAy9pyWKrAv3KViqHgcDPQ9ECmYx3eaQoV5hBw",
+        tx_count: 202,
+        victim_real_sol_extracted: 17.24,
+      },
+      {
+        validator: "Goo7uPA1ASVX2Ws4JW1eAjQxBcTtjMdpAHBtPBzi8yN6",
+        tx_count: 178,
+        victim_real_sol_extracted: 16.1036,
+      },
+      {
+        validator: "STA5dMZHibCkLtWGXmEADpdkR8VRkGTJf1gTSMyJ1YU",
+        tx_count: 195,
+        victim_real_sol_extracted: 16.0762,
+      },
+      {
+        validator: "RUSHpmG4o1ydgySKRexRws7WMmu8nH5BaQgEAmwo2hK",
+        tx_count: 167,
+        victim_real_sol_extracted: 15.4685,
+      },
+      {
+        validator: "DtdSSG8ZJRZVv5Jx7K1MeWp7Zxcu19GD5wQRGRpQ9uMF",
+        tx_count: 151,
+        victim_real_sol_extracted: 15.2847,
+      },
+      {
+        validator: "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+        tx_count: 179,
+        victim_real_sol_extracted: 15.0986,
+      },
+      {
+        validator: "9aUUBU9AQvgeL8GqSubinJWJxhcXptj3nmvhVEAme4HT",
+        tx_count: 102,
+        victim_real_sol_extracted: 14.43,
+      },
+      {
+        validator: "CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A",
+        tx_count: 118,
+        victim_real_sol_extracted: 13.9633,
+      },
+    ],
+    top_attacks: [
+      {
+        date: "2025-05-03",
+        token_address: "HwKE9CPg9Z9WzAeQSj6jeLBizK7LJs5m6LTVx6pLpump",
+        attacker_address: "GLA3Z8mksBuVJ4Rps5KFzFUFa6CwnvAZEUFomBa5Z3Nu",
+        attacker_sol_extracted: 27.1886,
+        victim_real_sol_extracted: 27.3972,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3MNoyyWR3136LYeVWdcg4NBaA5C2ZZz9PHjrL4nMhf4sgokuY8N6MvoUczDAkUoDpf8LScaLaGDNtEYNMcXyoFJB",
+        attacker_tx_hash_sell:
+          "5ngGStob5msWMAeaQBeNgRWbcgwTtF5gWyN3EiW6QjgrtsbEwHfL1AjTJiw1eHhtiLvh8gTMJvLMBETJCU1ZceEr",
+        slot: 337454030,
+        victim_wallet_address: "4zdEhZbnbAaYeyEbtkaeQavvVibCH676gQYZ5s6FNme5",
+        victim_amount_in: 872.0,
+        victim_tx_hash:
+          "61m1UUoGgSsd5XXE7C5JhTTEKnep3FZyFz6skNEPr6hrjE7VY63A2AatEWxSEZs8cY31QQ5p2VVNi4rpiGftFTPB",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "8WCXLcWfLKqfX9kDDQtKtw21rUwwhzS7gAa4pWE2FrtX",
+        attacker_address: "B1D1jFzNSjpYv9qMkZBNMT2WGJCv2C3qijEiH7wM56uc",
+        attacker_sol_extracted: 24.5112,
+        victim_real_sol_extracted: 24.557,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3haJ9SXRVLUn2gDGteP2HP89TqGhypHdPuTGXCj4s56MgUQuL3hWTwnDRaDgMZJn9ets8ayFB787XZntxCzfFFH5",
+        attacker_tx_hash_sell:
+          "2SyDszcB6qiyQ86Ka3FeEyznYCuAoBnirBE1HkQGS4JP37K8xExQqnToRFCH4ConrDXKjhDQhm71Zk9Fq89kLbfx",
+        slot: 337595684,
+        victim_wallet_address: "7yXAevgGU86xCLRZt3AAXyFYoPNMwtHE4cW75PEY6u94",
+        victim_amount_in: 26.5046,
+        victim_tx_hash:
+          "6zGixFWdJgor9onLBFeVjpFuTdD1mSEiyPGyyf3w7E72RaHuTGpvQGySiwfzxjdSBFFtVNdfRvLUsGscZG4v3BZ",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "ULr8hQLDEbqPSPmmFviCZbEWQXk4esH9gKpSLzopump",
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        attacker_sol_extracted: 12.6814,
+        victim_real_sol_extracted: 13.0874,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "4SzQszjYDJGXoM8tga62RqfecuGXjbV6wY37UbiPbsebgprWcBimPwgst2AEXrQSdqxkVyXcr5CtSz5e88NThKhp",
+        attacker_tx_hash_sell:
+          "3iXDxNMcUHnh6CGVymJyF9nCmddw5RxiQUGXbkVUJGRTJGBHAH7nbJHUeAr8tGYKG9AonK6kYY7ntQhPjeMS95kd",
+        slot: 337655821,
+        victim_wallet_address: "54hqmoTvAF3xNytvFJMYNFBbTRLejixhLfBvSSyXVuDB",
+        victim_amount_in: 14.9999,
+        victim_tx_hash:
+          "56VSjgNjNedDgY3xhbKCWZnCuGkUWNHAp6Nrf1E3HbAs7JLsLD5JzxPkd8jrPK9YobBcroK45gSPAu1WpVpa7J4M",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "TRUMPRqQdQXVoYbQjAQtwXzvuxJZoFnDFRFtQd7FqQx",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 3.5117,
+        victim_real_sol_extracted: 4.5561,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "5bs7et2srWnXGgw5vsaxnZBoNJ3CqHnbvD9Dy2GfTG41M2CoBz3v37VUUTSNYXhcZB2wSeRSCZKruea2cZreigMj",
+        attacker_tx_hash_sell:
+          "3wtBvSimHCdKBmSpeEwT9ZhUZ6yWYGXADu6jqDYA7gw12eyHETZFCQoss5MUKTgfWAJEbA6KsVjndHGJ9Vpqh9hz",
+        slot: 337652639,
+        victim_wallet_address: "8bjU4U2Z7x1EeEb3CLdg6hsto2GnpW1pWD8XYHJEh75M",
+        victim_amount_in: 6.5432,
+        victim_tx_hash:
+          "5GJj4Xi4KkbUwwcg6bY9NYcKBDM1aQY2KCdc99K7orHeEjCvDguiTKaZpGE2y2ns3qivA8MiFHVizcfCzmAjr5cW",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
+        attacker_sol_extracted: 2.231,
+        victim_real_sol_extracted: 4.3513,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "2tz9iFpdtJJduJiJMX12DgNLTYD212ZBytVkut62fkNEYVPAA4C9muePjfWznW9Kw1Ngg44ZWyccw2ARuqwt8aZX",
+        attacker_tx_hash_sell:
+          "5n5VVVWivYjHgLk2qJod9k7wjLfTabCoDPLSoVeHMQsTD1UXT9JdcRLvwLythdSzPR64sTQwudrq97h8zh1sR3V2",
+        slot: 337472950,
+        victim_wallet_address: "CxGxknh4hi262GF111Pw6FkQUZ6Vv8yV7rk5FWiGZ13Y",
+        victim_amount_in: 33.7175,
+        victim_tx_hash:
+          "PVcfHmnaNnPYWy7kXgumGsMuAj43dxwXpLKPe61jBHN6Bb8n3Xn5qLUEJYY1xnkKNMaWUBrgd8hQrRVR1H2JVQi",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "5YjbRibnpwi8gw7Fh2Bczccifi38TVNzkgtDK8Ygpump",
+        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
+        attacker_sol_extracted: 2.1501,
+        victim_real_sol_extracted: 4.0681,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3sKHo8dhAKVG2yvQDSHM2xqPa4L9etDdBWauCbDQrMAWfzWbt7LUgnEbiuZptPnQA34TQPCzvRTEcefCTiVt3Npt",
+        attacker_tx_hash_sell:
+          "3xjVARUQvuHU6fNFoLSHPPKKWUyrUS1xPTN4n4EiSVFgkCpwbSo8HPYDEK6LWLx3NKVriJdshxRieswaGEMJoYUH",
+        slot: 337650858,
+        victim_wallet_address: "DzNVvBadPDFcBYD9ozASUfUUk3qYg3YebQcjJRvDQoc6",
+        victim_amount_in: 6.0,
+        victim_tx_hash:
+          "JDePceKaABWTBcEKs5AKY2CeCmyWvSWLLk6zpk7TczmXjLDFiK7vbbewktqA6byco9SH85PXje3sCkuEf2Emx9j",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "CEvvz6J1NAxyE5uYBdWNqjMVMKCy7wSu5VVaBDN9pump",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 3.3929,
+        victim_real_sol_extracted: 3.9953,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "61RANYdeyViRHsggpxgG5QSsrZvKeoNhs5eKGwr1TTErZFEfzU2NxKogHYQ1egy3E2VkmiUd2YaPgSyPSVswpBUA",
+        attacker_tx_hash_sell:
+          "2YUtro4PLRpBbeAxLJHmMgu19rgK7xUgfoGLiyB9jK9G758oFY9NWZaz35xYBHpvHvzi3V5qeG5hd4tnpfxku6AS",
+        slot: 337581951,
+        victim_wallet_address: "CTVtGQpbkWNxt8RSMgaz3SrbwZyiRQDqyp6TgkofREwg",
+        victim_amount_in: 4.7378,
+        victim_tx_hash:
+          "26N9btKF2tvCkAo8GEr6AaYDhU4iSLCmtZweikL32DUpCBUoYEu7CYdBFea6pe7WPGbby448Fi2qaTYVMmkzqSoc",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "4SHXSAMhGucYfRwBkhhXJsF9LzYXcKRHTyGwZnUxpump",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 3.1572,
+        victim_real_sol_extracted: 3.9546,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "5YaNDaPTzFarcRTtwJtdkCWmyfiLSDNBTZeebCjZojGDc3gVDgzf7zdC3qKyDQPKbyeC25Tief9ZD2whiwnUy4Ti",
+        attacker_tx_hash_sell:
+          "2AA1qQNFEZeaDsaRVKLjhKZF4o5j86y1gqt84LWU29YFhiCkMs6uYrbp2u6dVMjt69CKaBDZf23DC8utfyJvkTCy",
+        slot: 337439523,
+        victim_wallet_address: "AGRWeUtRve79PYEWAHabhrpL8hSvHuoKBnTGGd8kiJca",
+        victim_amount_in: 6.9867,
+        victim_tx_hash:
+          "Z2SPwKW3gLjXgkvz7mNWErfE3a2P6xRpQcan1mvWSbePaLidvsLZBFyTMeSmBBTvrqJYmb3A96sji8HY1SsquTF",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 2.4628,
+        victim_real_sol_extracted: 3.6142,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "67aFvMBS6Z39Rcci8QndV9PWHPCY5KfYjuNP6hvciaCEUzRomzpuQsGrhnoHhDHpTaCmKgsyMWDqQhR8sNg4TEUz",
+        attacker_tx_hash_sell:
+          "5hUSZmS6qQDLPgXbmottMgNUeoFmTsp8JZnGiS9rqxmiGikSWUtVqZR5JVZEBGhYhXdFBBMAreY5MDwGU6vS1A6k",
+        slot: 337461356,
+        victim_wallet_address: "4C2dpRtw5yDxtfgymnS5smrvuYXpdktcZX5Qv92DqxsK",
+        victim_amount_in: 49.9997,
+        victim_tx_hash:
+          "wphipovmhr8VcCYot1dEqrc8YG7nbymcrKW5ubFY4GjT92ouFBK9MgXsSKv3yyT4UC8ZPyJnMDstZkCnURiExeM",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "FkT2JJHDLL5eyBeeX7RjFevXSP5UDwRkiMCusg3ypump",
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        attacker_sol_extracted: 2.9156,
+        victim_real_sol_extracted: 3.2495,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3NQMQtsEnXX8GMc2oRrFr58Lw3mundKPtJYKNA8TDAFroF5uqpXUsCvVF4ez6C7xGQcqzudUZCWVYLMsLrG5RZG7",
+        attacker_tx_hash_sell:
+          "55ipzgZLTLu2J6X2aFr3YeHosEffJbpmAczRaRtxJBX1gBYBzwQ4EJEKytViVyTubhAZrWuTimFFFPGcvGkMRHMd",
+        slot: 337452825,
+        victim_wallet_address: "3DYYgBmbp7bFyo8Vc3K9GM1hGKuuXUNaxynWqvEGi1Db",
+        victim_amount_in: 19.8,
+        victim_tx_hash:
+          "2yyPmCzd9rspjTJE5YTaTCPgx3wvAjsHWDe3AucGim9GZPRPMwmR3HGQ6aiM6G3oCBS1izxdvZZu1PBVNEGN3fNu",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "38PgzpJYu2HkiYvV8qePFakB8tuobPdGm2FFEn7Dpump",
+        attacker_address: "FUKUPmhGLbiEeMpbZvdn3KyNov7KYYcYUwHQk9SmhCDm",
+        attacker_sol_extracted: 2.2157,
+        victim_real_sol_extracted: 3.1535,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "2GBnoeHwLvgq8Q822vygn7dT2JaHL7TAzXQqdJoG2P9DuxaE8nDMdHzEGGvWLW7u1FXvmbAuPx5S4BmLEXqyAJfT",
+        attacker_tx_hash_sell:
+          "FsU5v6qbA5kvyJEdJVt2eTC4KLvNfL1jj892sVeYZGYYMpeqH1fbAYB3TD4UTcUw6Hm9DKasaUHrCjyn6apQof7",
+        slot: 337452786,
+        victim_wallet_address: "6LXutJvKUw8Q5ue2gCgKHQdAN4suWW8awzFVC6XCguFx",
+        victim_amount_in: 42.9605,
+        victim_tx_hash:
+          "3S4VLfFjrzXjjavgaurAty1oN9EGkKQVNdp1wHpttGbQ7r9KHqATtcGRY8C4m26st3X48Sy37Uqjp3svAHDAF2Pn",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "BAD7zmf5BUQGPVxzEA7v6LMe5Y8nqbYv7ZNj7eMpJBAD",
+        attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
+        attacker_sol_extracted: 2.17,
+        victim_real_sol_extracted: 3.0521,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "47m8cH4yhyqLCM4jmKesYh41tUZvo5DQ3B2ungdv2aqqgKDaFayg64jGPiJLZcdm6sZAR4SYatUMn25eNj2djo5z",
+        attacker_tx_hash_sell:
+          "dGAZo9obstZYUtuxtV2VutDonDRLcNdUVpssFmztgoJsKJn2uRikxAZbjZKH2QkpDiA7WgNCXBn4ZFqGpdaKq8H",
+        slot: 337594758,
+        victim_wallet_address: "6rqR7zoqRaokEDK5qLMakcTWP8RS7UM8vqbF55Yx6pm",
+        victim_amount_in: 4.9573,
+        victim_tx_hash:
+          "3gcC2ayYz1oXbo6zZ1morfor1ehqYjDWGgpkU5Eii1WZAoSJK7q7stzq6L9ou191tfMFB7GMAijKw8UMDHrmA4bd",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "2MVy9drHqSBinPoSyUrUVS19m5u8Cjj3mZcnpYshpump",
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        attacker_sol_extracted: 2.7027,
+        victim_real_sol_extracted: 3.0086,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "2sqpVf3h5MQNYANiAtPhFYXdBBGHAoY53zsECnwXCTzxBW4Hn6Sq2X1acJVfLxf6Q1hpWUpYtwekKzitn9UXkQHv",
+        attacker_tx_hash_sell:
+          "ZLbaguE9bnXt6FeoTqptj8zESexJ7kJBQaMesVpRPhZKL8de6wKUbQog83S2SRyLLky9fJqnbAEXYbKJnC1GjrF",
+        slot: 337538893,
+        victim_wallet_address: "BHhQEy9gtqFquGY8NAVFe8y1A4EfpUSSeVibKQXeGPQc",
+        victim_amount_in: 5.9915,
+        victim_tx_hash:
+          "qdPCn31iAZjCHtUJnAWyJKpmSGpCCfTpm8SCoGeQoYpmnSD9B74rWSEJ8WQ61mqgy4F185uLVZm88kR8gxkwtAF",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "8WCXLcWfLKqfX9kDDQtKtw21rUwwhzS7gAa4pWE2FrtX",
+        attacker_address: "DwYVzJaAW683T474NP2nAe7S84cLrbhsUWqCcKko9Lr8",
+        attacker_sol_extracted: 2.9154,
+        victim_real_sol_extracted: 2.9923,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3SnLoCb1TwUbRvR8FG7UQaNgSEqJHQykQrv8az7q5bM2YP7uMdtpXaHjPLntuGCkUygS8Ba9nxvu6MZhwpXectVy",
+        attacker_tx_hash_sell:
+          "duszkL8ZAjHCMfk7roLCdCUnY8TS6BHiHphqKQeHoNiEVSzPvP9JasEtJv2CE77dHNNGZYGAMT6NE3vzUybC8Nr",
+        slot: 337595018,
+        victim_wallet_address: "FyaZSG3DSAgPifsJB3BsiFeL6xCCwmaNDZvb2rb5n6Cw",
+        victim_amount_in: 3.0,
+        victim_tx_hash:
+          "5S8g3QLfPhhmuRsw8nTzuibmSQ14HrbF1RSSHpRCWdy2GFgQi9hsKe6ygNDZkvHyvmXELgwGoS715tWRQdi6TyWL",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "GDTgPno7RrBibWgQFjWMy1vJEXWxQQASaCijg89dpump",
+        attacker_address: "AtTjQKXo1CYTa2MuxPARtr382ZyhPU5YX4wMMpvaa1oy",
+        attacker_sol_extracted: 2.8783,
+        victim_real_sol_extracted: 2.9887,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "2hMPnz3CRUNkR2J7HJzVNcTvkyJ5zFjFBsfNkDkxSpvc6vqcTcVmQBc4jpMHm6n3mtKs5h6RkNGquayunF7r6tdY",
+        attacker_tx_hash_sell:
+          "LmEkgWet7okMn4XEo4tj2SSXG4ZEkLH16WfCNeAS6SrUnD6mefQe7bYaGXRaZvmMcPxWheMQNUD1HWwDKXxhiwJ",
+        slot: 337543412,
+        victim_wallet_address: "CSiZG5sBsNDgLmbEH54hfLNAn3f3JXVsTqU1LzZTD3KX",
+        victim_amount_in: 47.692,
+        victim_tx_hash:
+          "2TQFPhK1MkfxDSiHfRypuntQ9JTkhWCEJmYbTjrWsMdM9GZmzUhvLE2vVtWmxFkhjodXBQxnigeYeVXxtfwbNTAm",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "CDBdbNqmrLu1PcgjrFG52yxg71QnFhBZcUE6PSFdbonk",
+        attacker_address: "4wYgRtmxPHGX8yWF6MfJj82UB43GicPFMH2hWrBhXVcG",
+        attacker_sol_extracted: 1.4103,
+        victim_real_sol_extracted: 2.7839,
+        victim_priv_mempool_provider: "Nextblock",
+        attacker_tx_hash_buy:
+          "UJHZvv3sJPsBucJguk4X5DPWxVDEGGBNGed7n33sWg8HtoMTzBLda77Voe9GoguHWiq6REFGi71kwLcmrGxzrPh",
+        attacker_tx_hash_sell:
+          "2WNJLKq9oV5v9cE7QC8gsz6cHBEMmYwfCdEo5xjYkPq5b5mw78fQH3VpY52nay7NdrFEvGhM2TmS4YE1MU4LbBVn",
+        slot: 337603718,
+        victim_wallet_address: "CiRaBXYGm9fdRDvxsVv6TkcRmsCuBW49LdcSWRDtL2wM",
+        victim_amount_in: 5.94,
+        victim_tx_hash:
+          "5smPi3MCdrn6Fyh5Sy2ie3XLzefvFtwcBUNhpZncLhVPzzKAzmPTMMff5e3gLFKY9ncXKQn4URy7iA1faN83TKhZ",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "GAppwKVCJthTCC4noSxg74XXvhptxXmH9U14Vhe96v5s",
+        attacker_address: "J9qE1ZEpBtL87YHBKBqxoaaF7BBHnxuB2wG2m9GBGDx4",
+        attacker_sol_extracted: 2.6421,
+        victim_real_sol_extracted: 2.7713,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "uo9c4hYA1CCgLh8WkGdfnh81muNEnAUY39Q1xFFwJG4LKe1xC521wFRg7tCtVPrdgSCopNxK3mmUzmSsHaQKwsx",
+        attacker_tx_hash_sell:
+          "4Z2BkpqjFuKHr5FYdWgjijwqjVJJHU93nZ3pEo5Du3aVLoYct37rQw6QS644pDHwSteqVPpHNGS88r5cA3igRt1J",
+        slot: 337565730,
+        victim_wallet_address: "A1KLk9N9tr6WNbLXpFag4SSTniDK1jXz8AbVhRKJd2fu",
+        victim_amount_in: 6.6398,
+        victim_tx_hash:
+          "3mF2pPzATCbwkbpB9EzKzqrBhSpoUwkZRrnpUuPTGCiPK4Erj5H3z4D6LtJUfUYf4qkeMbxkzoco3FnRjd8qKsSc",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "33L2iZvoWchHBGM9bpwAU7nz1j95ydCLUhRCxWfrpump",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 2.5537,
+        victim_real_sol_extracted: 2.6646,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "3meaEbCVjH7ETpUdpHyp2hSa5LvGSxgCCfuRiK7PVUQGX54WDXRUT3Ci1z58qWQzPGz7jyjTrYeH96tazGJs9LEm",
+        attacker_tx_hash_sell:
+          "4VFxPYRPKDbxhVDfGHzPq11hmcqNGg4ceQNAAewjVUrVeAsquAdD7SVxV3dEcPhyo1KMtGdkaVr7aFpxkcFz9u9H",
+        slot: 337630510,
+        victim_wallet_address: "AwKNDiHNLdnYjWmxoahLENLYX1H27LYoaxaF7R8YyXM5",
+        victim_amount_in: 9.9899,
+        victim_tx_hash:
+          "3F6HmfQZMBBck3qXszJAhjvkMYzVMm4WnBHahCEsjekppzm6Th5CnNLzzv58o34WaXG9m1Kh9ACHatpi7kkGwwwp",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "2t7SanEtAjf35FERcfzzSTo8rajgV6YZWZYVVoRZpump",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 1.8559,
+        victim_real_sol_extracted: 2.4954,
+        victim_priv_mempool_provider: null,
+        attacker_tx_hash_buy:
+          "5LUviRHqR4M7NAhB2pA72zgMCAvEDxor6b1PcpxZwAJ6o1mSdd1K5YqWcxUjm7BGfuGNrP36qaVNEWBnkj9FuXpp",
+        attacker_tx_hash_sell:
+          "59LSJMwMB5GAqwM2qMH89JUGFnBn4GajQZGeUdDijMpbSF1dR3eBiTgVCr52zN9oZPiJpmXCsDQQqLiWQw7DrtHD",
+        slot: 337651865,
+        victim_wallet_address: "2Kqnrq3L2mhSJw2mPzLvW5KevuLPxSDT1hytGfRgqE2N",
+        victim_amount_in: 7.4459,
+        victim_tx_hash:
+          "3yHfPAzZL3fPWt5bxJQxkGwkF5JcPkCx4YTKhGA5aEgaqmE8GYwC5ZnCdyj4yiiDrRdFcWsQFuuNXfV3mg53R3jX",
+      },
+      {
+        date: "2025-05-03",
+        token_address: "9UYAYvVS2cZ3BndbsoG1ScJbjfwyEPGxjE79hh5ipump",
+        attacker_address: "GHPCChGqtKf4sFaN1wPPCapcweKXBBngB3hF7D6nT29e",
+        attacker_sol_extracted: 1.0392,
+        victim_real_sol_extracted: 2.4542,
+        victim_priv_mempool_provider: "Jito",
+        attacker_tx_hash_buy:
+          "3HtXWQt3g2Q3aYrjG2PTrn9ctVsRAzn7fkeVLnFKiRnK5oXCxowADyBEnwfuvhV1wdnPcP4iGrdi5kRUsicqHzQv",
+        attacker_tx_hash_sell:
+          "257monhND2DpZ2zuCHYvBPmG1EnJ2f4cTs9T9L9FEXmkyhAPrfrSfaTrWxDXWFvMWXpPVhuxgLGk9FukLLE5GMQ3",
+        slot: 337519667,
+        victim_wallet_address: "7Hi2e743hCCCZR3WsdRwyyNkCBwg7uywyujHHVnyw2KJ",
+        victim_amount_in: 20.0,
+        victim_tx_hash:
+          "1551MRv5VcyZG2YkjZkXFjRV4FknYSS6ujAoYJwGPxkmWtL9PMWoeLrggqC3Xe5KPTupq69Tx5omdUYz3cQ8USf",
+      },
+    ],
+  },
   {
     date: "2025-05-02",
     agg_victim_priv_mempool_provider: [
