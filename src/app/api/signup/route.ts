@@ -1,4 +1,3 @@
-import { DISCORD_WEBHOOK_URL } from "@/lib/constants";
 import { NextResponse } from "next/server";
 
 export const POST = async (req: Request) => {
@@ -12,7 +11,13 @@ export const POST = async (req: Request) => {
       );
     }
 
-    const discordRes = await fetch(DISCORD_WEBHOOK_URL, {
+    const discordWebhookUrl = process.env.DISCORD_WEBHOOK_URL;
+
+    if (!discordWebhookUrl) {
+      throw new Error("Discord webhook URL is not set");
+    }
+
+    const discordRes = await fetch(discordWebhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

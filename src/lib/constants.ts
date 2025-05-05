@@ -47,6 +47,3 @@ export const menuItems = [
 ];
 
 export const CHART_COLORS = ["#80f28c", "#fff", "#6b7280"];
-
-export const DISCORD_WEBHOOK_URL =
-  "https://discord.com/api/webhooks/1367247062428549200/5d-ryHswkOj4Q-HUxTGSzpFID8BHKkqLQyzsK85832xDg7lBB8LJ-IOVkXL5GdnihPXP";
