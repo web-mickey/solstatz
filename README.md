@@ -1,6 +1,6 @@
 # Sol Statz
 
-> 🏆 **Selected into the Colosseum accelerator (Solana) - one of ~10 projects picked worldwide.** Grew into **Tempo**, which raised **$250k**.
+> 🚀 **Colosseum accelerator (Solana) - selected as one of ~10 projects worldwide.** Grew into **Tempo**, which raised **$250k**.
 
 **Real onchain data** - MEV sandwich and trading analytics for Raydium V4 and Pump.fun.
 
