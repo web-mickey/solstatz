@@ -6,6 +6,12 @@
 
 ![Sol Statz dashboard](./assets/01-dashboard.png)
 
+## Achievements
+
+- 🚀 **Colosseum accelerator** (Solana) - selected as one of ~10 projects worldwide, became **Tempo** and raised **$250k**
+- 🏅 **Superteam Poland Grant** - ~$8,500
+- 🏆 **Helius Redacted Hackathon** - won 2 tracks
+
 ## The story
 
 It started as a bot. A fully autonomous trading bot on Solana, written in Rust from scratch. It traded **10,000-20,000 tokens a night**, running **10-12 hours completely unattended**, filtering opportunities through **~15 custom filters**, with **sub-0.5ms execution** that landed trades in the same slot as the trigger. It was profitable within the first three weeks.
